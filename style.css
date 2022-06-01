@@ -1,22 +1,61 @@
-body, html {
+* {
     margin: 0;
-    height: 100%;
 }
-/* body{
-    background: url(./DarkSouls-You-Died.png);
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
-} */
-#flexbox-container {
+
+body {
+    background-color: aqua;
+    width: 100%;
+}
+
+.img-container {
+    background-image: url('https://media.dnd.wizards.com/styles/second_hubpage_banner/public/images/head-banner/04-PRODUCT-INFO_Tabletop_Hero_MM_1.jpg');
+    height: 300px;
     display: flex;
-    justify-content: space-around;
-    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    min-height: 200px;
+    align-items: center;
+
+}
+
+.inner-container {
+    background-color: #000000;
+}
+
+#site-name {
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ff1512;
+    background-color: #000;
+    opacity: .7;
+    border-radius: 5px;
 }
 
 #monster-submit {
-    order : -1;
-    align-self: center;
+    display: flex;
+    justify-content: center;
+
 }
+
+/* #monster-randomizer [
+
+] */
+
+#flexbox-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+
+}
+
+#monster-info {
+    align-self: center;
+
+}
+
 
 .btn {
     border-radius: 5px;
@@ -35,8 +74,14 @@ body, html {
     cursor: pointer;
 }
 
-#monster-submit {
-    display: flex;
-    position: relative;
-    
+
+
+#monster-image {
+    width: auto;
+    height: 12rem;
+    background-size: cover;
+}
+
+#monster-pic {
+    align-self: center;
 }
