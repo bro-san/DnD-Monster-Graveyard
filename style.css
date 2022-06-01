@@ -1,10 +1,9 @@
-* {
-    margin: 0;
-}
-
-body {
-    background-color: aqua;
+body,
+html {
+    background-color: #686868;
     height: 100%;
+    margin: 0;
+
 }
 
 .img-container {
@@ -42,18 +41,20 @@ body {
 
 
 #monster-randomizer {
-  
+    
 }
 
 #flexbox-container {
     display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-
-}
+        justify-content: space-around;
+        align-items: flex-end;
+        align-items: flex-end;
+    }
 
 #monster-info {
     align-self: center;
+    background-color: #ff1512;
+    border-radius: 5px;
 
 }
 
@@ -64,7 +65,7 @@ body {
     background: #bfc485;
     color: #383434;
     border: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-family: 'Open Sans';
     padding: 10px;
     padding-left: 15px;
@@ -78,15 +79,25 @@ body {
 
 
 #monster-image {
+   
     width: auto;
     height: 12rem;
     background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+#kill-button {
+    align-self: center;
 }
 
 #monster-pic {
     align-self: center;
     display: block;
+    background-color: #ff1512;
+    border-radius: 5px;
+
 }
+
 
 #content {
     padding: 0 18px;

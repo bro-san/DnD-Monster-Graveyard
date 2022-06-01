@@ -8747,5 +8747,34 @@
         "Actions": "<p><em><strong>Slam.</strong></em> <em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) bludgeoning damage.</p>",
         "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/71/1000/1000/636252733510786769.jpeg"
       }
-    ]
+    ],
+    "monstersUpdated": [{"name": "Zombie",
+      "meta": "Medium undead, neutral evil",
+      "Armor Class": "8 ",
+      "Hit Points": "22 (3d8 + 9)",
+      "Speed": "20 ft. ",
+      "STR": "13",
+      "STR_mod": "(+1)",
+      "DEX": "6",
+      "DEX_mod": "(-2)",
+      "CON": "16",
+      "CON_mod": "(+3)",
+      "INT": "3",
+      "INT_mod": "(-4)",
+      "WIS": "6",
+      "WIS_mod": "(-2)",
+      "CHA": "5",
+      "CHA_mod": "(-3)",
+      "Saving Throws": "WIS +0",
+      "Damage Immunities": "Poison",
+      "Condition Immunities": "Poisoned",
+      "Senses": "Darkvision 60 ft.,  Passive Perception 8",
+      "Languages": "Understands the languages of its creator but can't speak",
+      "Challenge": "1/4 (50 XP)",
+      "Traits": "<p><em><strong>Undead Fortitude.</strong></em> If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.</p>",
+      "Actions": "<p><em><strong>Slam.</strong></em> <em>Melee Weapon Attack:</em> +3 to hit, reach 5 ft., one target. <em>Hit:</em> 4 (1d6 + 1) bludgeoning damage.</p>",
+      "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/71/1000/1000/636252733510786769.jpeg"
+    }]
   }
+
+  

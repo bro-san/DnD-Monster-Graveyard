@@ -58,3 +58,18 @@ submitForm.addEventListener("submit", (e) => {
     submitForm.reset();
     //will reset the kill count when that's added
 })
+
+//Adding randomizer:
+const randomMonsterBtn = document.querySelector('button#monster-randomizer')
+randomMonsterBtn.addEventListener('click', e => {
+  let randomNum = Math.floor(Math.random() * 327)
+  return fetch('http://localhost:3000/monsters/')
+  .then(resp => resp.json())
+  .then(data => console.log(data[randomNum]))
+})
+
+//adding persistent kill count function to kill button
+const killCountBtn = document.querySelector('button#kill-button')
+killCountBtn.addEventListener('click', e => {
+
+})
