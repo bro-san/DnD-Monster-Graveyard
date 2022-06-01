@@ -1,3 +1,12 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+/* body{
+    background: url(./DarkSouls-You-Died.png);
+    background-repeat: no-repeat;
+    background-size: 300px 100px;
+} */
 #flexbox-container {
     display: flex;
     justify-content: space-around;
@@ -5,6 +14,29 @@
 }
 
 #monster-submit {
+    order : -1;
+    align-self: center;
+}
+
+.btn {
+    border-radius: 5px;
+    border-color: #ffffff;
+    background: #bfc485;
+    color: #383434;
+    border: none;
+    display: inline-block;
+    font-family: 'Open Sans';
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#monster-submit {
     display: flex;
-    align-items: stretch;
+    position: relative;
+    
 }
