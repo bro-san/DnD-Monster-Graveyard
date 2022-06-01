@@ -1,4 +1,3 @@
-
 const submitForm = document.getElementById('monster-form')
 const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
@@ -41,11 +40,6 @@ const createUl = (element) => {
     <br><strong>Traits:</strong> ${element.Traits}
     <br><strong>Actions:</strong> ${element.Actions}
     <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
-
-    
-    
-    
-    
     `)
     //alert(`${element}`)
 
