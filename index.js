@@ -3,7 +3,11 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 
+var monsterDataNew;
 
+fetch('http://localhost:3000/monsters/')
+  .then(res => res.json())
+  .then(data => monsterDataNew = data)
 
 
 let i;
