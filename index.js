@@ -1,3 +1,18 @@
+fetch('http://localhost:3000/monsters/')
+.then(resp => resp.json())
+.then(data => data.forEach(element => {
+    element.killCount = 0;
+    fetch('http://localhost:3000/monstersUpdated', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(element)
+    })
+    .then(res => res.text())
+    .then(dat => console.log(dat))
+  }))
 
 const submitForm = document.getElementById('monster-form')
 
@@ -27,4 +42,10 @@ randomMonsterBtn.addEventListener('click', e => {
   return fetch('http://localhost:3000/monsters/')
   .then(resp => resp.json())
   .then(data => console.log(data[randomNum]))
+})
+
+//adding persistent kill count function to kill button
+const killCountBtn = document.querySelector('button#kill-button')
+killCountBtn.addEventListener('click', e => {
+
 })
