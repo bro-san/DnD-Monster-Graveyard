@@ -11,19 +11,30 @@ let monsterData = (monsterName) => {
            let monsterName = document.getElementById('monster-name')
            monsterName.innerText = element.name
            //let monsterDescription = document.getElementById('description')
-           monsterDescription.innerHTML = element.Traits
+           monsterDescription.innerHTML = (`${element.meta}`) 
+           //<br><strong>Challenge:</strong> ${element.Challenge}`);
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
            let monsterButton = document.getElementById('expanded-info-button')
            monsterButton.addEventListener('click', (e) => {
                //console.log(element)
-               createUl(element)
+               if(monsterDescription.innerHTML == `${element.meta}`) {
+               //<br><strong>Challenge:</strong> ${element.Challenge}`)) {
+                   //console.log(monsterDescription.innerHTML)
+                   expandMonster(element)
+               }
+               else{
+                   console.log(monsterDescription.innerHTML)
+                   shrinkMonster(element)
+               } 
+               //<br><strong>Challenge:</strong> ${element.Challenge}`))
+               
            })
         }
       }))
   }
 
-const createUl = (element) => {
+const expandMonster = (element) => {
     //console.log(element)
     //let newUl = document.createElement('ul')
     //newUl = Object.assign({}, element)
@@ -44,6 +55,9 @@ const createUl = (element) => {
     //alert(`${element}`)
 
 } 
+const shrinkMonster = (element) => {
+    monsterDescription.innerHTML = element.meta
+}
 
 submitForm.addEventListener("submit", (e) => {
     e.preventDefault();
