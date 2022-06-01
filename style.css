@@ -4,7 +4,7 @@
 
 body {
     background-color: aqua;
-    width: 100%;
+    height: 100%;
 }
 
 .img-container {
@@ -18,7 +18,6 @@ body {
     text-align: center;
     min-height: 200px;
     align-items: center;
-
 }
 
 .inner-container {
@@ -35,10 +34,10 @@ body {
 }
 
 #monster-submit {
-    align-items: flex-start;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 
@@ -48,8 +47,8 @@ body {
 
 #flexbox-container {
     display: flex;
+    justify-content: space-evenly;
     align-items: flex-end;
-    justify-content: space-around;
 
 }
 
@@ -86,4 +85,5 @@ body {
 
 #monster-pic {
     align-self: center;
+    display: block;
 }
