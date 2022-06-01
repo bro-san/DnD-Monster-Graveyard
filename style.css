@@ -35,14 +35,16 @@ body {
 }
 
 #monster-submit {
+    align-items: flex-start;
     display: flex;
     justify-content: center;
-
+    flex-wrap: wrap;
 }
 
-/* #monster-randomizer [
 
-] */
+#monster-randomizer {
+  
+}
 
 #flexbox-container {
     display: flex;
