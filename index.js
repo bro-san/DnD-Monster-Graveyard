@@ -2,6 +2,7 @@ const submitForm = document.getElementById('monster-form')
 const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 
+
 let monsterData = (monsterName) => {
     return fetch('http://localhost:3000/monsters/')
       .then(resp => resp.json())
@@ -30,9 +31,11 @@ let monsterData = (monsterName) => {
                //<br><strong>Challenge:</strong> ${element.Challenge}`))
                
            })
+
         }
       }))
   }
+
 
 const expandMonster = (element) => {
     //console.log(element)
@@ -58,6 +61,7 @@ const expandMonster = (element) => {
 const shrinkMonster = (element) => {
     monsterDescription.innerHTML = element.meta
 }
+
 
 submitForm.addEventListener("submit", (e) => {
     e.preventDefault();
