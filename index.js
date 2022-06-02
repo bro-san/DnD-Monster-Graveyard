@@ -2,8 +2,15 @@ const submitForm = document.getElementById('monster-form')
 const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
+const killCount = document.getElementById('kill-count')
+//console.log(killCount.textContent)
 
 
+var monsterData;
+
+fetch('http://localhost:3000/monsters/')
+  .then(res => res.json())
+  .then(data => monsterData = data)
 
 
 // let i;
@@ -19,17 +26,16 @@ const monsterButton = document.getElementsByClassName("collapsible");
 //   });
 // }
 
-let monsterData = (monsterName) => {
-    return fetch('http://localhost:3000/monsters/')
-      .then(resp => resp.json())
-      .then(data => data.forEach((element) => {
-        if (element.name.toUpperCase() == monsterName.toUpperCase()) {
-           //console.log(element)
+function displayMonster (element) {
            let monsterName = document.getElementById('monster-name')
            monsterName.innerText = element.name
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
+           let creatureName = document.querySelector("#creature-name")
+           creatureName.textContent = element.name
+           let monsterMeta = document.querySelector('#monster-meta')
+           monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
            let creatureName = document.querySelector("#creature-name")
            creatureName.textContent = element.name
@@ -48,18 +54,24 @@ let monsterData = (monsterName) => {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
-
-        }
-      }))
+           killCount.innerHTML = element.kill_count
+           let killCountBtn = document.querySelector('button#kill-button')
+           killCountBtn.addEventListener('click', e => {
+            updateKills(element.kill_count)
+            //saveKills(monster)
+           })
   }
 
-
+function updateKills (e) {
+  currentKills = parseInt(killCount.textContent, 10)
+  killCount.textContent = `${currentKills + 1}`
+}
 
 submitForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    let newMonster = submitForm['monster-search'].value
-    //console.log(newMonster)
-    monsterData(newMonster)
+    let newMonster = submitForm['monster-search'].value;
+    monsterData.forEach(element => {if (element.name.toUpperCase() == newMonster.toUpperCase()) {displayMonster(element)}
+})
     submitForm.reset();
     //will reset the kill count when that's added
 })
@@ -68,18 +80,13 @@ submitForm.addEventListener("submit", (e) => {
 const randomMonsterBtn = document.querySelector('button#monster-randomizer')
 randomMonsterBtn.addEventListener('click', e => {
   let randomNum = Math.floor(Math.random() * 327)
-  return fetch('http://localhost:3000/monsters/')
-  .then(resp => resp.json())
-  .then(data => console.log(data[randomNum]))
+  displayMonster(monsterData[randomNum]);
+
 })
 
 //adding persistent kill count function to kill button
-const killCountBtn = document.querySelector('button#kill-button')
-killCountBtn.addEventListener('click', e => {
-
-})
-
-
+// const killCountBtn = document.querySelector('button#kill-button')
+// killCountBtn.addEventListener('click', e => {
 
 
 const openModelButton = document.querySelector('[data-modal-target]')
