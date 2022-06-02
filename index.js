@@ -3,6 +3,8 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
+const submitCharForm = document.getElementById('grave-form')
+const graveNav = document.getElementById('graves')
 
 var monster
 var monsterData;
@@ -49,7 +51,8 @@ function displayMonster (element) {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
-           killCount.innerHTML = element.kill_count
+           killCount.innerHTML = element.kill_count;
+
   }
 
 let killCountBtn = document.querySelector('button#kill-button')
@@ -83,8 +86,6 @@ randomMonsterBtn.addEventListener('click', e => {
 // const killCountBtn = document.querySelector('button#kill-button')
 // killCountBtn.addEventListener('click', e => {
 
-const submitCharForm = document.getElementById('grave-form')
-const graveNav = document.getElementById('graves')
 
 submitCharForm.addEventListener("submit", (e) => {
     e.preventDefault();
