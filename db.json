@@ -1,6 +1,7 @@
 {
     "monsters": [
       {
+        "id": 1,
         "name": "Aboleth",
         "meta": "Large aberration, lawful evil",
         "Armor Class": "17 (Natural Armor)",
@@ -30,6 +31,7 @@
         "kill_count": "0"
       },
       {
+        "id": 2,
         "name": "Acolyte",
         "meta": "Medium humanoid, any",
         "Armor Class": "10 ",
@@ -57,6 +59,7 @@
         "kill_count": "0"
       },
       {
+        "id": 3,
         "name": "Adult Black Dragon",
         "meta": "Huge dragon, chaotic evil",
         "Armor Class": "19 (Natural Armor)",
@@ -87,6 +90,7 @@
         "kill_count": "0"
       },
       {
+        "id": 4,
         "name": "Adult Blue Dragon",
         "meta": "Huge dragon, lawful evil",
         "Armor Class": "19 (Natural Armor)",
@@ -117,6 +121,7 @@
         "kill_count": "0"
       },
       {
+        "id": 5,
         "name": "Adult Brass Dragon",
         "meta": "Huge dragon, chaotic good",
         "Armor Class": "18 (Natural Armor)",
@@ -147,6 +152,7 @@
         "kill_count": "0"
       },
       {
+        "id": 6,
         "name": "Adult Bronze Dragon",
         "meta": "Huge dragon, lawful good",
         "Armor Class": "19 (Natural Armor)",
@@ -177,6 +183,7 @@
         "kill_count": "0"
       },
       {
+        "id": 7,
         "name": "Adult Copper Dragon",
         "meta": "Huge dragon, chaotic good",
         "Armor Class": "18 (Natural Armor)",
@@ -207,6 +214,7 @@
         "kill_count": "0"
       },
       {
+        "id": 8,
         "name": "Adult Gold Dragon",
         "meta": "Huge dragon, lawful good",
         "Armor Class": "19 (Natural Armor)",
@@ -237,6 +245,7 @@
         "kill_count": "0"
       },
       {
+        "id": 9,
         "name": "Adult Green Dragon",
         "meta": "Huge dragon, lawful evil",
         "Armor Class": "19 (Natural Armor)",
@@ -268,6 +277,7 @@
         "kill_count": "0"
       },
       {
+        "id": 10,
         "name": "Adult Red Dragon",
         "meta": "Huge dragon, chaotic evil",
         "Armor Class": "19 (Natural Armor)",
@@ -298,6 +308,7 @@
         "kill_count": "0"
       },
       {
+        "id": 11,
         "name": "Adult Silver Dragon",
         "meta": "Huge dragon, lawful good",
         "Armor Class": "19 (Natural Armor)",
@@ -328,6 +339,7 @@
         "kill_count": "0"
       },
       {
+        "id": 12,
         "name": "Adult White Dragon",
         "meta": "Huge dragon, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -358,6 +370,7 @@
         "kill_count": "0"
       },
       {
+        "id": 13,
         "name": "Air Elemental",
         "meta": "Large elemental, neutral",
         "Armor Class": "15 ",
@@ -387,6 +400,7 @@
         "kill_count": "0"
       },
       {
+        "id": 14,
         "name": "Allosaurus",
         "meta": "Large beast, unaligned",
         "Armor Class": "13 Natural Armor",
@@ -414,6 +428,7 @@
         "kill_count": "0"
       },
       {
+        "id": 15,
         "name": "Ancient Black Dragon",
         "meta": "Gargantuan dragon, chaotic evil",
         "Armor Class": "22 (Natural Armor)",
@@ -444,6 +459,7 @@
         "kill_count": "0"
       },
       {
+        "id": 16,
         "name": "Ancient Blue Dragon",
         "meta": "Gargantuan dragon, lawful evil",
         "Armor Class": "22 (Natural Armor)",
@@ -474,6 +490,7 @@
         "kill_count": "0"
       },
       {
+        "id": 17,
         "name": "Ancient Brass Dragon",
         "meta": "Gargantuan dragon, chaotic good",
         "Armor Class": "20 (Natural Armor)",
@@ -504,6 +521,7 @@
         "kill_count": "0"
       },
       {
+        "id": 18,
         "name": "Ancient Bronze Dragon",
         "meta": "Gargantuan dragon, lawful good",
         "Armor Class": "22 (Natural Armor)",
@@ -534,6 +552,7 @@
         "kill_count": "0"
       },
       {
+        "id": 19,
         "name": "Ancient Copper Dragon",
         "meta": "Gargantuan dragon, chaotic good",
         "Armor Class": "21 (Natural Armor)",
@@ -564,6 +583,7 @@
         "kill_count": "0"
       },
       {
+        "id": 20,
         "name": "Ancient Gold Dragon",
         "meta": "Gargantuan dragon, lawful good",
         "Armor Class": "22 (Natural Armor)",
@@ -594,6 +614,7 @@
         "kill_count": "0"
       },
       {
+        "id": 21,
         "name": "Ancient Green Dragon",
         "meta": "Gargantuan dragon, lawful evil",
         "Armor Class": "21 (Natural Armor)",
@@ -625,6 +646,7 @@
         "kill_count": "0"
       },
       {
+        "id": 22,
         "name": "Ancient Red Dragon",
         "meta": "Gargantuan dragon, chaotic evil",
         "Armor Class": "22 (Natural Armor)",
@@ -655,6 +677,7 @@
         "kill_count": "0"
       },
       {
+        "id": 23,
         "name": "Ancient Silver Dragon",
         "meta": "Gargantuan dragon, lawful good",
         "Armor Class": "22 (Natural Armor)",
@@ -685,6 +708,7 @@
         "kill_count": "0"
       },
       {
+        "id": 24,
         "name": "Ancient White Dragon",
         "meta": "Gargantuan dragon, chaotic evil",
         "Armor Class": "20 (Natural Armor)",
@@ -715,6 +739,7 @@
         "kill_count": "0"
       },
       {
+        "id": 25,
         "name": "Androsphinx",
         "meta": "Large monstrosity, lawful neutral",
         "Armor Class": "17 (Natural Armor)",
@@ -746,6 +771,7 @@
         "kill_count": "0"
       },
       {
+        "id": 26,
         "name": "Animated Armor",
         "meta": "Medium construct, unaligned",
         "Armor Class": "18 (Natural Armor)",
@@ -774,6 +800,7 @@
         "kill_count": "0"
       },
       {
+        "id": 27,
         "name": "Ankheg",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "14 (Natural Armor), 11 While Prone",
@@ -799,6 +826,7 @@
         "kill_count": "0"
       },
       {
+        "id": 28,
         "name": "Ankylosaurus",
         "meta": "Huge beast, unaligned",
         "Armor Class": "15 Natural",
@@ -824,6 +852,7 @@
         "kill_count": "0"
       },
       {
+        "id": 29,
         "name": "Ape",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -850,6 +879,7 @@
         "kill_count": "0"
       },
       {
+        "id": 30,
         "name": "Archmage",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 (15 With Mage Armor)",
@@ -878,6 +908,7 @@
         "kill_count": "0"
       },
       {
+        "id": 31,
         "name": "Assassin",
         "meta": "Medium humanoid, any",
         "Armor Class": "15 (Studded Leather)",
@@ -907,6 +938,7 @@
         "kill_count": "0"
       },
       {
+        "id": 32,
         "name": "Awakened Shrub",
         "meta": "Small plant, unaligned",
         "Armor Class": "9 ",
@@ -935,6 +967,7 @@
         "kill_count": "0"
       },
       {
+        "id": 33,
         "name": "Awakened Tree",
         "meta": "Huge plant, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -963,6 +996,7 @@
         "kill_count": "0"
       },
       {
+        "id": 34,
         "name": "Axe Beak",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 ",
@@ -988,6 +1022,7 @@
         "kill_count": "0"
       },
       {
+        "id": 35,
         "name": "Azer",
         "meta": "Medium elemental, lawful neutral",
         "Armor Class": "17 (Natural Armor, Shield)",
@@ -1017,6 +1052,7 @@
         "kill_count": "0"
       },
       {
+        "id": 36,
         "name": "Baboon",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -1043,6 +1079,7 @@
         "kill_count": "0"
       },
       {
+        "id": 37,
         "name": "Badger",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "10 ",
@@ -1069,6 +1106,7 @@
         "kill_count": "0"
       },
       {
+        "id": 38,
         "name": "Balor",
         "meta": "Huge fiend, chaotic evil",
         "Armor Class": "19 (Natural Armor)",
@@ -1099,6 +1137,7 @@
         "kill_count": "0"
       },
       {
+        "id": 39,
         "name": "Bandit",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 (Leather Armor)",
@@ -1124,6 +1163,7 @@
         "kill_count": "0"
       },
       {
+        "id": 40,
         "name": "Bandit Captain",
         "meta": "Medium humanoid, any",
         "Armor Class": "15 (Studded Leather)",
@@ -1152,6 +1192,7 @@
         "kill_count": "0"
       },
       {
+        "id": 41,
         "name": "Banshee",
         "meta": "Medium undead, chaotic evil",
         "Armor Class": "12 ",
@@ -1182,6 +1223,7 @@
         "kill_count": "0"
       },
       {
+        "id": 42,
         "name": "Barbed Devil",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "15 (Natural Armor)",
@@ -1213,6 +1255,7 @@
         "kill_count": "0"
       },
       {
+        "id": 43,
         "name": "Basilisk",
         "meta": "Medium monstrosity, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -1239,6 +1282,7 @@
         "kill_count": "0"
       },
       {
+        "id": 44,
         "name": "Bat",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "12 ",
@@ -1265,6 +1309,7 @@
         "kill_count": "0"
       },
       {
+        "id": 45,
         "name": "Bearded Devil",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "13 (Natural Armor)",
@@ -1295,6 +1340,7 @@
         "kill_count": "0"
       },
       {
+        "id": 46,
         "name": "Behir",
         "meta": "Huge monstrosity, neutral evil",
         "Armor Class": "17 (Natural Armor)",
@@ -1322,6 +1368,7 @@
         "kill_count": "0"
       },
       {
+        "id": 47,
         "name": "Berserker",
         "meta": "Medium humanoid, any",
         "Armor Class": "13 (Hide Armor)",
@@ -1348,6 +1395,7 @@
         "kill_count": "0"
       },
       {
+        "id": 48,
         "name": "Black Bear",
         "meta": "Medium beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -1375,6 +1423,7 @@
         "kill_count": "0"
       },
       {
+        "id": 49,
         "name": "Black Dragon Wyrmling",
         "meta": "Medium dragon, chaotic evil",
         "Armor Class": "17 (Natural Armor)",
@@ -1404,6 +1453,7 @@
         "kill_count": "0"
       },
       {
+        "id": 50,
         "name": "Black Pudding",
         "meta": "Large ooze, unaligned",
         "Armor Class": "7 ",
@@ -1433,6 +1483,7 @@
         "kill_count": "0"
       },
       {
+        "id": 51,
         "name": "Blink Dog",
         "meta": "Medium fey, lawful good",
         "Armor Class": "13 ",
@@ -1460,6 +1511,7 @@
         "kill_count": "0"
       },
       {
+        "id": 52,
         "name": "Blood Hawk",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -1487,6 +1539,7 @@
         "kill_count": "0"
       },
       {
+        "id": 53,
         "name": "Blue Dragon Wyrmling",
         "meta": "Medium dragon, lawful evil",
         "Armor Class": "17 (Natural Armor)",
@@ -1515,6 +1568,7 @@
         "kill_count": "0"
       },
       {
+        "id": 54,
         "name": "Boar",
         "meta": "Medium beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -1541,6 +1595,7 @@
         "kill_count": "0"
       },
       {
+        "id": 55,
         "name": "Bone Devil",
         "meta": "Large fiend, lawful evil",
         "Armor Class": "19 (Natural Armor)",
@@ -1572,6 +1627,7 @@
         "kill_count": "0"
       },
       {
+        "id": 56,
         "name": "Brass Dragon Wyrmling",
         "meta": "Medium dragon, chaotic good",
         "Armor Class": "16 (Natural Armor)",
@@ -1600,6 +1656,7 @@
         "kill_count": "0"
       },
       {
+        "id": 57,
         "name": "Bronze Dragon Wyrmling",
         "meta": "Medium dragon, lawful good",
         "Armor Class": "17 (Natural Armor)",
@@ -1629,6 +1686,7 @@
         "kill_count": "0"
       },
       {
+        "id": 58,
         "name": "Brown Bear",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -1656,6 +1714,7 @@
         "kill_count": "0"
       },
       {
+        "id": 59,
         "name": "Bugbear",
         "meta": "Medium humanoid, chaotic evil",
         "Armor Class": "16 (Hide Armor, Shield)",
@@ -1683,6 +1742,7 @@
         "kill_count": "0"
       },
       {
+        "id": 60,
         "name": "Bulette",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "17 (Natural Armor)",
@@ -1710,6 +1770,7 @@
         "kill_count": "0"
       },
       {
+        "id": 61,
         "name": "Camel",
         "meta": "Large beast, unaligned",
         "Armor Class": "9 ",
@@ -1735,6 +1796,7 @@
         "kill_count": "0"
       },
       {
+        "id": 62,
         "name": "Cat",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "12 ",
@@ -1762,6 +1824,7 @@
         "kill_count": "0"
       },
       {
+        "id": 63,
         "name": "Centaur",
         "meta": "Large monstrosity, neutral good",
         "Armor Class": "12 ",
@@ -1789,6 +1852,7 @@
         "kill_count": "0"
       },
       {
+        "id": 64,
         "name": "Chain Devil",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "16 (Natural Armor)",
@@ -1820,6 +1884,7 @@
         "kill_count": "0"
       },
       {
+        "id": 65,
         "name": "Chimera",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "14 (Natural Armor)",
@@ -1846,6 +1911,7 @@
         "kill_count": "0"
       },
       {
+        "id": 66,
         "name": "Chuul",
         "meta": "Large aberration, chaotic evil",
         "Armor Class": "16 (Natural Armor)",
@@ -1875,6 +1941,7 @@
         "kill_count": "0"
       },
       {
+        "id": 67,
         "name": "Clay Golem",
         "meta": "Large construct, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -1903,6 +1970,7 @@
         "kill_count": "0"
       },
       {
+        "id": 68,
         "name": "Cloaker",
         "meta": "Large aberration, chaotic neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -1930,6 +1998,7 @@
         "kill_count": "0"
       },
       {
+        "id": 69,
         "name": "Cloud Giant",
         "meta": "Huge giant, neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -1958,6 +2027,7 @@
         "kill_count": "0"
       },
       {
+        "id": 70,
         "name": "Cockatrice",
         "meta": "Small monstrosity, unaligned",
         "Armor Class": "11 ",
@@ -1983,6 +2053,7 @@
         "kill_count": "0"
       },
       {
+        "id": 71,
         "name": "Commoner",
         "meta": "Medium humanoid, any",
         "Armor Class": "10 ",
@@ -2008,6 +2079,7 @@
         "kill_count": "0"
       },
       {
+        "id": 72,
         "name": "Constrictor Snake",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 ",
@@ -2033,6 +2105,7 @@
         "kill_count": "0"
       },
       {
+        "id": 73,
         "name": "Copper Dragon Wyrmling",
         "meta": "Medium dragon, chaotic good",
         "Armor Class": "16 (Natural Armor)",
@@ -2061,6 +2134,7 @@
         "kill_count": "0"
       },
       {
+        "id": 74,
         "name": "Couatl",
         "meta": "Medium celestial, lawful good",
         "Armor Class": "19 (Natural Armor)",
@@ -2090,6 +2164,7 @@
         "kill_count": "0"
       },
       {
+        "id": 75,
         "name": "Crab",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -2117,6 +2192,7 @@
         "kill_count": "0"
       },
       {
+        "id": 76,
         "name": "Crocodile",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -2144,6 +2220,7 @@
         "kill_count": "0"
       },
       {
+        "id": 77,
         "name": "Cult Fanatic",
         "meta": "Medium humanoid, any",
         "Armor Class": "13 (Leather Armor)",
@@ -2171,6 +2248,7 @@
         "kill_count": "0"
       },
       {
+        "id": 78,
         "name": "Cultist",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 (Leather Armor)",
@@ -2198,6 +2276,7 @@
         "kill_count": "0"
       },
       {
+        "id": 79,
         "name": "Cyclops",
         "meta": "Huge giant, chaotic neutral",
         "Armor Class": "14 Natural Armor",
@@ -2224,6 +2303,7 @@
         "kill_count": "0"
       },
       {
+        "id": 80,
         "name": "Darkmantle",
         "meta": "Small monstrosity, unaligned",
         "Armor Class": "11 ",
@@ -2251,6 +2331,7 @@
         "kill_count": "0"
       },
       {
+        "id": 81,
         "name": "Death Dog",
         "meta": "Medium monstrosity, neutral evil",
         "Armor Class": "12 ",
@@ -2278,6 +2359,7 @@
         "kill_count": "0"
       },
       {
+        "id": 82,
         "name": "Deep Gnome (Svirfneblin)",
         "meta": "Small humanoid, neutral good",
         "Armor Class": "15 (Chain Shirt)",
@@ -2305,6 +2387,7 @@
         "kill_count": "0"
       },
       {
+        "id": 83,
         "name": "Deer",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 ",
@@ -2330,6 +2413,7 @@
         "kill_count": "0"
       },
       {
+        "id": 84,
         "name": "Deva",
         "meta": "Medium celestial, lawful good",
         "Armor Class": "17 (Natural Armor)",
@@ -2360,6 +2444,7 @@
         "kill_count": "0"
       },
       {
+        "id": 85,
         "name": "Dire Wolf",
         "meta": "Large beast, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -2387,6 +2472,7 @@
         "kill_count": "0"
       },
       {
+        "id": 86,
         "name": "Djinni",
         "meta": "Large elemental, chaotic good",
         "Armor Class": "17 (Natural Armor)",
@@ -2415,6 +2501,7 @@
         "kill_count": "0"
       },
       {
+        "id": 87,
         "name": "Doppelganger",
         "meta": "Medium monstrosity, neutral",
         "Armor Class": "14 ",
@@ -2443,6 +2530,7 @@
         "kill_count": "0"
       },
       {
+        "id": 88,
         "name": "Draft Horse",
         "meta": "Large beast, unaligned",
         "Armor Class": "10 ",
@@ -2468,6 +2556,7 @@
         "kill_count": "0"
       },
       {
+        "id": 89,
         "name": "Dragon Turtle",
         "meta": "Gargantuan dragon, neutral",
         "Armor Class": "20 (Natural Armor)",
@@ -2496,6 +2585,7 @@
         "kill_count": "0"
       },
       {
+        "id": 90,
         "name": "Dretch",
         "meta": "Small fiend, chaotic evil",
         "Armor Class": "11 (Natural Armor)",
@@ -2524,6 +2614,7 @@
         "kill_count": "0"
       },
       {
+        "id": 91,
         "name": "Drider",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "19 (Natural Armor)",
@@ -2551,6 +2642,7 @@
         "kill_count": "0"
       },
       {
+        "id": 92,
         "name": "Drow",
         "meta": "Medium humanoid, neutral evil",
         "Armor Class": "15 (Chain Shirt)",
@@ -2578,6 +2670,7 @@
         "kill_count": "0"
       },
       {
+        "id": 93,
         "name": "Druid",
         "meta": "Medium humanoid, any",
         "Armor Class": "11 (16 With Barkskin)",
@@ -2605,6 +2698,7 @@
         "kill_count": "0"
       },
       {
+        "id": 94,
         "name": "Dryad",
         "meta": "Medium fey, neutral",
         "Armor Class": "11 (16 With Barkskin)",
@@ -2632,6 +2726,7 @@
         "kill_count": "0"
       },
       {
+        "id": 95,
         "name": "Duergar",
         "meta": "Medium humanoid, lawful evil",
         "Armor Class": "16 (Scale Mail, Shield)",
@@ -2659,6 +2754,7 @@
         "kill_count": "0"
       },
       {
+        "id": 96,
         "name": "Dust Mephit",
         "meta": "Small elemental, neutral evil",
         "Armor Class": "12 ",
@@ -2689,6 +2785,7 @@
         "kill_count": "0"
       },
       {
+        "id": 97,
         "name": "Eagle",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -2716,6 +2813,7 @@
         "kill_count": "0"
       },
       {
+        "id": 98,
         "name": "Earth Elemental",
         "meta": "Large elemental, neutral",
         "Armor Class": "17 (Natural Armor)",
@@ -2746,6 +2844,7 @@
         "kill_count": "0"
       },
       {
+        "id": 99,
         "name": "Efreeti",
         "meta": "Large elemental, lawful evil",
         "Armor Class": "17 (Natural Armor)",
@@ -2774,6 +2873,7 @@
         "kill_count": "0"
       },
       {
+        "id": 100,
         "name": "Elephant",
         "meta": "Huge beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -2800,6 +2900,7 @@
         "kill_count": "0"
       },
       {
+        "id": 101,
         "name": "Elk",
         "meta": "Large beast, unaligned",
         "Armor Class": "10 ",
@@ -2826,6 +2927,7 @@
         "kill_count": "0"
       },
       {
+        "id": 102,
         "name": "Erinyes",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "18 (Plate)",
@@ -2857,6 +2959,7 @@
         "kill_count": "0"
       },
       {
+        "id": 103,
         "name": "Ettercap",
         "meta": "Medium monstrosity, neutral evil",
         "Armor Class": "13 (Natural Armor)",
@@ -2884,6 +2987,7 @@
         "kill_count": "0"
       },
       {
+        "id": 104,
         "name": "Ettin",
         "meta": "Large giant, chaotic evil",
         "Armor Class": "12 (Natural Armor)",
@@ -2911,6 +3015,7 @@
         "kill_count": "0"
       },
       {
+        "id": 105,
         "name": "Fire Elemental",
         "meta": "Large elemental, neutral",
         "Armor Class": "13 ",
@@ -2940,6 +3045,7 @@
         "kill_count": "0"
       },
       {
+        "id": 106,
         "name": "Fire Giant",
         "meta": "Huge giant, lawful evil",
         "Armor Class": "18 (Plate)",
@@ -2968,6 +3074,7 @@
         "kill_count": "0"
       },
       {
+        "id": 107,
         "name": "Flameskull",
         "meta": "Tiny undead, neutral evil",
         "Armor Class": "13 ",
@@ -2998,6 +3105,7 @@
         "kill_count": "0"
       },
       {
+        "id": 108,
         "name": "Flesh Golem",
         "meta": "Medium construct, neutral",
         "Armor Class": "9 ",
@@ -3026,6 +3134,7 @@
         "kill_count": "0"
       },
       {
+        "id": 109,
         "name": "Flying Snake",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "14 ",
@@ -3052,6 +3161,7 @@
         "kill_count": "0"
       },
       {
+        "id": 110,
         "name": "Flying Sword",
         "meta": "Small construct, unaligned",
         "Armor Class": "17 (Natural Armor)",
@@ -3081,6 +3191,7 @@
         "kill_count": "0"
       },
       {
+        "id": 111,
         "name": "Frog",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "11 ",
@@ -3107,6 +3218,7 @@
         "kill_count": "0"
       },
       {
+        "id": 112,
         "name": "Frost Giant",
         "meta": "Huge giant, neutral evil",
         "Armor Class": "15 (Patchwork Armor)",
@@ -3135,6 +3247,7 @@
         "kill_count": "0"
       },
       {
+        "id": 113,
         "name": "Gargoyle",
         "meta": "Medium elemental, chaotic evil",
         "Armor Class": "15 (Natural Armor)",
@@ -3164,6 +3277,7 @@
         "kill_count": "0"
       },
       {
+        "id": 114,
         "name": "Gelatinous Cube",
         "meta": "Large ooze, unaligned",
         "Armor Class": "6 ",
@@ -3191,6 +3305,7 @@
         "kill_count": "0"
       },
       {
+        "id": 115,
         "name": "Ghast",
         "meta": "Medium undead, chaotic evil",
         "Armor Class": "13 ",
@@ -3220,6 +3335,7 @@
         "kill_count": "0"
       },
       {
+        "id": 116,
         "name": "Ghost",
         "meta": "Medium undead, any",
         "Armor Class": "11 ",
@@ -3249,6 +3365,7 @@
         "kill_count": "0"
       },
       {
+        "id": 117,
         "name": "Ghoul",
         "meta": "Medium undead, chaotic evil",
         "Armor Class": "12 ",
@@ -3276,6 +3393,7 @@
         "kill_count": "0"
       },
       {
+        "id": 118,
         "name": "Giant Ape",
         "meta": "Huge beast, unaligned",
         "Armor Class": "12 ",
@@ -3302,6 +3420,7 @@
         "kill_count": "0"
       },
       {
+        "id": 119,
         "name": "Giant Badger",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -3328,6 +3447,7 @@
         "kill_count": "0"
       },
       {
+        "id": 120,
         "name": "Giant Bat",
         "meta": "Large beast, unaligned",
         "Armor Class": "13 ",
@@ -3354,6 +3474,7 @@
         "kill_count": "0"
       },
       {
+        "id": 121,
         "name": "Giant Boar",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -3380,6 +3501,7 @@
         "kill_count": "0"
       },
       {
+        "id": 122,
         "name": "Giant Centipede",
         "meta": "Small beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -3405,6 +3527,7 @@
         "kill_count": "0"
       },
       {
+        "id": 123,
         "name": "Giant Constrictor Snake",
         "meta": "Huge beast, unaligned",
         "Armor Class": "12 ",
@@ -3431,6 +3554,7 @@
         "kill_count": "0"
       },
       {
+        "id": 124,
         "name": "Giant Crab",
         "meta": "Medium beast, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -3458,6 +3582,7 @@
         "kill_count": "0"
       },
       {
+        "id": 125,
         "name": "Giant Crocodile",
         "meta": "Huge beast, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -3485,6 +3610,7 @@
         "kill_count": "0"
       },
       {
+        "id": 126,
         "name": "Giant Eagle",
         "meta": "Large beast, neutral good",
         "Armor Class": "13 ",
@@ -3512,6 +3638,7 @@
         "kill_count": "0"
       },
       {
+        "id": 127,
         "name": "Giant Elk",
         "meta": "Huge beast, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -3539,6 +3666,7 @@
         "kill_count": "0"
       },
       {
+        "id": 128,
         "name": "Giant Fire Beetle",
         "meta": "Small beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -3565,6 +3693,7 @@
         "kill_count": "0"
       },
       {
+        "id": 129,
         "name": "Giant Frog",
         "meta": "Medium beast, unaligned",
         "Armor Class": "11 ",
@@ -3592,6 +3721,7 @@
         "kill_count": "0"
       },
       {
+        "id": 130,
         "name": "Giant Goat",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -3618,6 +3748,7 @@
         "kill_count": "0"
       },
       {
+        "id": 131,
         "name": "Giant Hyena",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 ",
@@ -3645,6 +3776,7 @@
         "kill_count": "0"
       },
       {
+        "id": 132,
         "name": "Giant Lizard",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -3670,6 +3802,7 @@
         "kill_count": "0"
       },
       {
+        "id": 133,
         "name": "Giant Octopus",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 ",
@@ -3697,6 +3830,7 @@
         "kill_count": "0"
       },
       {
+        "id": 134,
         "name": "Giant Owl",
         "meta": "Large beast, neutral",
         "Armor Class": "12 ",
@@ -3724,6 +3858,7 @@
         "kill_count": "0"
       },
       {
+        "id": 135,
         "name": "Giant Poisonous Snake",
         "meta": "Medium beast, unaligned",
         "Armor Class": "14 ",
@@ -3750,6 +3885,7 @@
         "kill_count": "0"
       },
       {
+        "id": 136,
         "name": "Giant Rat",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -3776,6 +3912,7 @@
         "kill_count": "0"
       },
       {
+        "id": 137,
         "name": "Giant Scorpion",
         "meta": "Large beast, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -3801,6 +3938,7 @@
         "kill_count": "0"
       },
       {
+        "id": 138,
         "name": "Giant Sea Horse",
         "meta": "Large beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -3827,6 +3965,7 @@
         "kill_count": "0"
       },
       {
+        "id": 139,
         "name": "Giant Shark",
         "meta": "Huge beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -3854,6 +3993,7 @@
         "kill_count": "0"
       },
       {
+        "id": 140,
         "name": "Giant Spider",
         "meta": "Large beast, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -3881,6 +4021,7 @@
         "kill_count": "0"
       },
       {
+        "id": 141,
         "name": "Giant Toad",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 ",
@@ -3907,6 +4048,7 @@
         "kill_count": "0"
       },
       {
+        "id": 142,
         "name": "Giant Vulture",
         "meta": "Large beast, neutral",
         "Armor Class": "10 ",
@@ -3934,6 +4076,7 @@
         "kill_count": "0"
       },
       {
+        "id": 143,
         "name": "Giant Wasp",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -3959,6 +4102,7 @@
         "kill_count": "0"
       },
       {
+        "id": 144,
         "name": "Giant Weasel",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 ",
@@ -3986,6 +4130,7 @@
         "kill_count": "0"
       },
       {
+        "id": 145,
         "name": "Giant Wolf Spider",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 ",
@@ -4013,6 +4158,7 @@
         "kill_count": "0"
       },
       {
+        "id": 146,
         "name": "Gibbering Mouther",
         "meta": "Medium aberration, neutral",
         "Armor Class": "9 ",
@@ -4040,6 +4186,7 @@
         "kill_count": "0"
       },
       {
+        "id": 147,
         "name": "Glabrezu",
         "meta": "Large fiend, chaotic evil",
         "Armor Class": "17 (Natural Armor)",
@@ -4070,6 +4217,7 @@
         "kill_count": "0"
       },
       {
+        "id": 148,
         "name": "Gladiator",
         "meta": "Medium humanoid, any",
         "Armor Class": "16 (Studded Leather, Shield)",
@@ -4099,6 +4247,7 @@
         "kill_count": "0"
       },
       {
+        "id": 149,
         "name": "Gnoll",
         "meta": "Medium humanoid, chaotic evil",
         "Armor Class": "15 (Hide Armor, Shield)",
@@ -4125,6 +4274,7 @@
         "kill_count": "0"
       },
       {
+        "id": 150,
         "name": "Goat",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -4151,6 +4301,7 @@
         "kill_count": "0"
       },
       {
+        "id": 151,
         "name": "Goblin",
         "meta": "Small humanoid, neutral evil",
         "Armor Class": "15 (Leather Armor, Shield)",
@@ -4178,6 +4329,7 @@
         "kill_count": "0"
       },
       {
+        "id": 152,
         "name": "Gold Dragon Wyrmling",
         "meta": "Medium dragon, lawful good",
         "Armor Class": "17 Natural Armor",
@@ -4207,6 +4359,7 @@
         "kill_count": "0"
       },
       {
+        "id": 153,
         "name": "Gorgon",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "19 (Natural Armor)",
@@ -4235,6 +4388,7 @@
         "kill_count": "0"
       },
       {
+        "id": 154,
         "name": "Gray Ooze",
         "meta": "Medium ooze, unaligned",
         "Armor Class": "8 ",
@@ -4264,6 +4418,7 @@
         "kill_count": "0"
       },
       {
+        "id": 155,
         "name": "Green Dragon Wyrmling",
         "meta": "Medium dragon, lawful evil",
         "Armor Class": "17 (Natural Armor)",
@@ -4294,6 +4449,7 @@
         "kill_count": "0"
       },
       {
+        "id": 156,
         "name": "Green Hag",
         "meta": "Medium fey, neutral evil",
         "Armor Class": "17 (Natural Armor)",
@@ -4321,6 +4477,7 @@
         "kill_count": "0"
       },
       {
+        "id": 157,
         "name": "Grick",
         "meta": "Medium monstrosity, neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -4347,6 +4504,7 @@
         "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/369/1000/1000/636252779341924439.jpeg"
       },
       {
+        "id": 158,
         "name": "Griffon",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "12 ",
@@ -4374,6 +4532,7 @@
         "kill_count": "0"
       },
       {
+        "id": 159,
         "name": "Grimlock",
         "meta": "Medium humanoid, neutral evil",
         "Armor Class": "11 ",
@@ -4402,6 +4561,7 @@
         "kill_count": "0"
       },
       {
+        "id": 160,
         "name": "Guard",
         "meta": "Medium humanoid, any",
         "Armor Class": "16 (Chain Shirt, Shield)",
@@ -4428,6 +4588,7 @@
         "kill_count": "0"
       },
       {
+        "id": 161,
         "name": "Guardian Naga",
         "meta": "Large monstrosity, lawful good",
         "Armor Class": "18 (Natural Armor)",
@@ -4457,6 +4618,7 @@
         "kill_count": "0"
       },
       {
+        "id": 162,
         "name": "Gynosphinx",
         "meta": "Large monstrosity, lawful neutral",
         "Armor Class": "17 (Natural Armor)",
@@ -4488,6 +4650,7 @@
         "kill_count": "0"
       },
       {
+        "id": 163,
         "name": "Half-Red Dragon Veteran",
         "meta": "Medium humanoid, any",
         "Armor Class": "18 (Plate)",
@@ -4515,6 +4678,7 @@
         "kill_count": "0"
       },
       {
+        "id": 164,
         "name": "Harpy",
         "meta": "Medium monstrosity, chaotic evil",
         "Armor Class": "11 ",
@@ -4540,6 +4704,7 @@
         "kill_count": "0"
       },
       {
+        "id": 165,
         "name": "Hawk",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "13 ",
@@ -4567,6 +4732,7 @@
         "kill_count": "0"
       },
       {
+        "id": 166,
         "name": "Hell Hound",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "15 (Natural Armor)",
@@ -4595,6 +4761,7 @@
         "kill_count": "0"
       },
       {
+        "id": 167,
         "name": "Hezrou",
         "meta": "Large fiend, chaotic evil",
         "Armor Class": "16 (Natural Armor)",
@@ -4625,6 +4792,7 @@
         "kill_count": "0"
       },
       {
+        "id": 168,
         "name": "Hill Giant",
         "meta": "Huge giant, chaotic evil",
         "Armor Class": "13 (Natural Armor)",
@@ -4651,6 +4819,7 @@
         "kill_count": "0"
       },
       {
+        "id": 169,
         "name": "Hippogriff",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "11 ",
@@ -4678,6 +4847,7 @@
         "kill_count": "0"
       },
       {
+        "id": 170,
         "name": "Hobgoblin",
         "meta": "Medium humanoid, lawful evil",
         "Armor Class": "18 (Chain Mail, Shield)",
@@ -4704,6 +4874,7 @@
         "kill_count": "0"
       },
       {
+        "id": 171,
         "name": "Homunculus",
         "meta": "Tiny construct, neutral",
         "Armor Class": "13 (Natural Armor)",
@@ -4732,6 +4903,7 @@
         "kill_count": "0"
       },
       {
+        "id": 172,
         "name": "Horned Devil",
         "meta": "Large fiend, lawful evil",
         "Armor Class": "18 (Natural Armor)",
@@ -4762,6 +4934,7 @@
         "kill_count": "0"
       },
       {
+        "id": 173,
         "name": "Hunter Shark",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -4789,6 +4962,7 @@
         "kill_count": "0"
       },
       {
+        "id": 174,
         "name": "Hydra",
         "meta": "Huge monstrosity, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -4816,6 +4990,7 @@
         "kill_count": "0"
       },
       {
+        "id": 175,
         "name": "Hyena",
         "meta": "Medium beast, unaligned",
         "Armor Class": "11 ",
@@ -4843,6 +5018,7 @@
         "kill_count": "0"
       },
       {
+        "id": 176,
         "name": "Ice Devil",
         "meta": "Large fiend, lawful evil",
         "Armor Class": "18 (Natural Armor)",
@@ -4873,6 +5049,7 @@
         "kill_count": "0"
       },
       {
+        "id": 177,
         "name": "Ice Mephit",
         "meta": "Small elemental, neutral evil",
         "Armor Class": "11 ",
@@ -4903,6 +5080,7 @@
         "kill_count": "0"
       },
       {
+        "id": 178,
         "name": "Imp",
         "meta": "Tiny fiend, lawful evil",
         "Armor Class": "13 ",
@@ -4933,6 +5111,7 @@
         "kill_count": "0"
       },
       {
+        "id": 179,
         "name": "Invisible Stalker",
         "meta": "Medium elemental, neutral",
         "Armor Class": "14 ",
@@ -4963,6 +5142,7 @@
         "kill_count": "0"
       },
       {
+        "id": 180,
         "name": "Iron Golem",
         "meta": "Large construct, unaligned",
         "Armor Class": "20 (Natural Armor)",
@@ -4991,6 +5171,7 @@
         "kill_count": "0"
       },
       {
+        "id": 181,
         "name": "Jackal",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -5018,6 +5199,7 @@
         "kill_count": "0"
       },
       {
+        "id": 182,
         "name": "Killer Whale",
         "meta": "Huge beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -5045,6 +5227,7 @@
         "kill_count": "0"
       },
       {
+        "id": 183,
         "name": "Knight",
         "meta": "Medium humanoid, any",
         "Armor Class": "18 (Plate)",
@@ -5073,6 +5256,7 @@
         "kill_count": "0"
       },
       {
+        "id": 184,
         "name": "Kobold",
         "meta": "Small humanoid, lawful evil",
         "Armor Class": "12 ",
@@ -5099,6 +5283,7 @@
         "kill_count": "0"
       },
       {
+        "id": 185,
         "name": "Kraken",
         "meta": "Gargantuan monstrosity, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -5129,6 +5314,7 @@
         "kill_count": "0"
       },
       {
+        "id": 186,
         "name": "Lamia",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "13 (Natural Armor)",
@@ -5156,6 +5342,7 @@
         "kill_count": "0"
       },
       {
+        "id": 187,
         "name": "Lemure",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "7 ",
@@ -5185,6 +5372,7 @@
         "kill_count": "0"
       },
       {
+        "id": 188,
         "name": "Lich",
         "meta": "Medium undead, any evil alignment",
         "Armor Class": "17 (Natural Armor)",
@@ -5217,6 +5405,7 @@
         "kill_count": "0"
       },
       {
+        "id": 189,
         "name": "Lion",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 ",
@@ -5244,6 +5433,7 @@
         "kill_count": "0"
       },
       {
+        "id": 190,
         "name": "Lizard",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "10 ",
@@ -5269,6 +5459,7 @@
         "kill_count": "0"
       },
       {
+        "id": 191,
         "name": "Lizardfolk",
         "meta": "Medium humanoid, neutral",
         "Armor Class": "15 (Natural Armor, Shield)",
@@ -5296,6 +5487,7 @@
         "kill_count": "0"
       },
       {
+        "id": 192,
         "name": "Mage",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 (15 With Mage Armor)",
@@ -5324,6 +5516,7 @@
         "kill_count": "0"
       },
       {
+        "id": 193,
         "name": "Magma Mephit",
         "meta": "Small elemental, neutral evil",
         "Armor Class": "11 ",
@@ -5354,6 +5547,7 @@
         "kill_count": "0"
       },
       {
+        "id": 194,
         "name": "Magmin",
         "meta": "Small elemental, chaotic neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -5382,6 +5576,7 @@
         "kill_count": "0"
       },
       {
+        "id": 195,
         "name": "Mammoth",
         "meta": "Huge beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -5408,6 +5603,7 @@
         "kill_count": "0"
       },
       {
+        "id": 196,
         "name": "Manticore",
         "meta": "Large monstrosity, lawful evil",
         "Armor Class": "14 (Natural Armor)",
@@ -5434,6 +5630,7 @@
         "kill_count": "0"
       },
       {
+        "id": 197,
         "name": "Marilith",
         "meta": "Large fiend, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -5465,6 +5662,7 @@
         "kill_count": "0"
       },
       {
+        "id": 198,
         "name": "Mastiff",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -5492,6 +5690,7 @@
         "kill_count": "0"
       },
       {
+        "id": 199,
         "name": "Medusa",
         "meta": "Medium monstrosity, lawful evil",
         "Armor Class": "15 (Natural Armor)",
@@ -5519,6 +5718,7 @@
         "kill_count": "0"
       },
       {
+        "id": 200,
         "name": "Merfolk",
         "meta": "Medium humanoid, neutral",
         "Armor Class": "11 ",
@@ -5546,6 +5746,7 @@
         "kill_count": "0"
       },
       {
+        "id": 201,
         "name": "Merrow",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "13 (Natural Armor)",
@@ -5572,6 +5773,7 @@
         "kill_count": "0"
       },
       {
+        "id": 202,
         "name": "Mimic",
         "meta": "Medium monstrosity, neutral",
         "Armor Class": "12 (Natural Armor)",
@@ -5601,6 +5803,7 @@
         "kill_count": "0"
       },
       {
+        "id": 203,
         "name": "Minotaur",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "14 (Natural Armor)",
@@ -5628,6 +5831,7 @@
         "kill_count": "0"
       },
       {
+        "id": 204,
         "name": "Minotaur Skeleton",
         "meta": "Large undead, lawful evil",
         "Armor Class": "12 (Natural Armor)",
@@ -5657,6 +5861,7 @@
         "kill_count": "0"
       },
       {
+        "id": 205,
         "name": "Mule",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -5683,6 +5888,7 @@
         "kill_count": "0"
       },
       {
+        "id": 206,
         "name": "Mummy",
         "meta": "Medium undead, lawful evil",
         "Armor Class": "11 (Natural Armor)",
@@ -5713,6 +5919,7 @@
         "kill_count": "0"
       },
       {
+        "id": 207,
         "name": "Mummy Lord",
         "meta": "Medium undead, lawful evil",
         "Armor Class": "17 (Natural Armor)",
@@ -5745,6 +5952,7 @@
         "kill_count": "0"
       },
       {
+        "id": 208,
         "name": "Nalfeshnee",
         "meta": "Large fiend, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -5775,6 +5983,7 @@
         "kill_count": "0"
       },
       {
+        "id": 209,
         "name": "Night Hag",
         "meta": "Medium fiend, neutral evil",
         "Armor Class": "17 (Natural Armor)",
@@ -5804,6 +6013,7 @@
         "kill_count": "0"
       },
       {
+        "id": 210,
         "name": "Nightmare",
         "meta": "Large fiend, neutral evil",
         "Armor Class": "13 (Natural Armor)",
@@ -5831,6 +6041,7 @@
         "kill_count": "0"
       },
       {
+        "id": 211,
         "name": "Noble",
         "meta": "Medium humanoid, any",
         "Armor Class": "15 (Breastplate)",
@@ -5858,6 +6069,7 @@
         "kill_count": "0"
       },
       {
+        "id": 212,
         "name": "Nothic",
         "meta": "Medium aberration, neutral evil",
         "Armor Class": "15 Natural",
@@ -5885,6 +6097,7 @@
         "kill_count": "0"
       },
       {
+        "id": 213,
         "name": "Ochre Jelly",
         "meta": "Large ooze, unaligned",
         "Armor Class": "8 ",
@@ -5915,6 +6128,7 @@
         "kill_count": "0"
       },
       {
+        "id": 214,
         "name": "Octopus",
         "meta": "Small beast, unaligned",
         "Armor Class": "12 ",
@@ -5942,6 +6156,7 @@
         "kill_count": "0"
       },
       {
+        "id": 215,
         "name": "Ogre",
         "meta": "Large giant, chaotic evil",
         "Armor Class": "11 (Hide Armor)",
@@ -5967,6 +6182,7 @@
         "kill_count": "0"
       },
       {
+        "id": 216,
         "name": "Ogre Zombie",
         "meta": "Large undead, neutral evil",
         "Armor Class": "8 ",
@@ -5996,6 +6212,7 @@
         "kill_count": "0"
       },
       {
+        "id": 217,
         "name": "Oni",
         "meta": "Large giant, lawful evil",
         "Armor Class": "16 (Chain Mail)",
@@ -6024,6 +6241,7 @@
         "kill_count": "0"
       },
       {
+        "id": 218,
         "name": "Orc",
         "meta": "Medium humanoid, chaotic evil",
         "Armor Class": "13 (Hide Armor)",
@@ -6051,6 +6269,7 @@
         "kill_count": "0"
       },
       {
+        "id": 219,
         "name": "Otyugh",
         "meta": "Large aberration, neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -6078,6 +6297,7 @@
         "kill_count": "0"
       },
       {
+        "id": 220,
         "name": "Owl",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "11 ",
@@ -6105,6 +6325,7 @@
         "kill_count": "0"
       },
       {
+        "id": 221,
         "name": "Owlbear",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -6132,6 +6353,7 @@
         "kill_count": "0"
       },
       {
+        "id": 222,
         "name": "Panther",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -6159,6 +6381,7 @@
         "kill_count": "0"
       },
       {
+        "id": 223,
         "name": "Pegasus",
         "meta": "Large celestial, chaotic good",
         "Armor Class": "12 ",
@@ -6186,6 +6409,7 @@
         "kill_count": "0"
       },
       {
+        "id": 224,
         "name": "Phase Spider",
         "meta": "Large monstrosity, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -6213,6 +6437,7 @@
         "kill_count": "0"
       },
       {
+        "id": 225,
         "name": "Pit Fiend",
         "meta": "Large fiend, lawful evil",
         "Armor Class": "19 (Natural Armor)",
@@ -6243,6 +6468,7 @@
         "kill_count": "0"
       },
       {
+        "id": 226,
         "name": "Planetar",
         "meta": "Large celestial, lawful good",
         "Armor Class": "19 (Natural Armor)",
@@ -6273,6 +6499,7 @@
         "kill_count": "0"
       },
       {
+        "id": 227,
         "name": "Plesiosaurus",
         "meta": "Large beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -6300,6 +6527,7 @@
         "kill_count": "0"
       },
       {
+        "id": 228,
         "name": "Poisonous Snake",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "13 ",
@@ -6325,6 +6553,7 @@
         "kill_count": "0"
       },
       {
+        "id": 229,
         "name": "Polar Bear",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -6352,6 +6581,7 @@
         "kill_count": "0"
       },
       {
+        "id": 230,
         "name": "Pony",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -6377,6 +6607,7 @@
         "kill_count": "0"
       },
       {
+        "id": 231,
         "name": "Priest",
         "meta": "Medium humanoid, any",
         "Armor Class": "13 (Chain Shirt)",
@@ -6404,6 +6635,7 @@
         "kill_count": "0"
       },
       {
+        "id": 232,
         "name": "Pseudodragon",
         "meta": "Tiny dragon, neutral good",
         "Armor Class": "13 (Natural Armor)",
@@ -6431,6 +6663,7 @@
         "kill_count": "0"
       },
       {
+        "id": 233,
         "name": "Pteranodon",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 Natural Armor",
@@ -6457,6 +6690,7 @@
         "kill_count": "0"
       },
       {
+        "id": 234,
         "name": "Purple Worm",
         "meta": "Gargantuan monstrosity, unaligned",
         "Armor Class": "18 (Natural Armor)",
@@ -6484,6 +6718,7 @@
         "kill_count": "0"
       },
       {
+        "id": 235,
         "name": "Quasit",
         "meta": "Tiny fiend, chaotic evil",
         "Armor Class": "13 ",
@@ -6514,6 +6749,7 @@
         "kill_count": "0"
       },
       {
+        "id": 236,
         "name": "Quipper",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "13 ",
@@ -6540,6 +6776,7 @@
         "kill_count": "0"
       },
       {
+        "id": 237,
         "name": "Rakshasa",
         "meta": "Medium fiend, lawful evil",
         "Armor Class": "16 (Natural Armor)",
@@ -6569,6 +6806,7 @@
         "kill_count": "0"
       },
       {
+        "id": 238,
         "name": "Rat",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "10 ",
@@ -6595,6 +6833,7 @@
         "kill_count": "0"
       },
       {
+        "id": 239,
         "name": "Raven",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "12 ",
@@ -6622,6 +6861,7 @@
         "kill_count": "0"
       },
       {
+        "id": 240,
         "name": "Red Dragon Wyrmling",
         "meta": "Medium dragon, chaotic evil",
         "Armor Class": "17 (Natural Armor)",
@@ -6650,6 +6890,7 @@
         "kill_count": "0"
       },
       {
+        "id": 241,
         "name": "Reef Shark",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -6677,6 +6918,7 @@
         "kill_count": "0"
       },
       {
+        "id": 242,
         "name": "Remorhaz",
         "meta": "Huge monstrosity, unaligned",
         "Armor Class": "17 (Natural Armor)",
@@ -6704,6 +6946,7 @@
         "kill_count": "0"
       },
       {
+        "id": 243,
         "name": "Rhinoceros",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -6730,6 +6973,7 @@
         "kill_count": "0"
       },
       {
+        "id": 244,
         "name": "Riding Horse",
         "meta": "Large beast, unaligned",
         "Armor Class": "10 ",
@@ -6755,6 +6999,7 @@
         "kill_count": "0"
       },
       {
+        "id": 245,
         "name": "Roc",
         "meta": "Gargantuan monstrosity, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -6783,6 +7028,7 @@
         "kill_count": "0"
       },
       {
+        "id": 246,
         "name": "Roper",
         "meta": "Large monstrosity, neutral evil",
         "Armor Class": "20 (Natural Armor)",
@@ -6810,6 +7056,7 @@
         "kill_count": "0"
       },
       {
+        "id": 247,
         "name": "Rug of Smothering",
         "meta": "Large construct, unaligned",
         "Armor Class": "12 ",
@@ -6838,6 +7085,7 @@
         "kill_count": "0"
       },
       {
+        "id": 248,
         "name": "Rust Monster",
         "meta": "Medium monstrosity, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -6864,6 +7112,7 @@
         "kill_count": "0"
       },
       {
+        "id": 249,
         "name": "Saber-Toothed Tiger",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 ",
@@ -6891,6 +7140,7 @@
         "kill_count": "0"
       },
       {
+        "id": 250,
         "name": "Sahuagin",
         "meta": "Medium humanoid, lawful evil",
         "Armor Class": "12 (Natural Armor)",
@@ -6918,6 +7168,7 @@
         "kill_count": "0"
       },
       {
+        "id": 251,
         "name": "Salamander",
         "meta": "Large elemental, neutral evil",
         "Armor Class": "15 (Natural Armor)",
@@ -6947,6 +7198,7 @@
         "kill_count": "0"
       },
       {
+        "id": 252,
         "name": "Satyr",
         "meta": "Medium fey, chaotic neutral",
         "Armor Class": "14 (Leather Armor)",
@@ -6974,6 +7226,7 @@
         "kill_count": "0"
       },
       {
+        "id": 253,
         "name": "Scorpion",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "11 (Natural Armor)",
@@ -6999,6 +7252,7 @@
         "kill_count": "0"
       },
       {
+        "id": 254,
         "name": "Scout",
         "meta": "Medium humanoid, any",
         "Armor Class": "13 (Leather Armor)",
@@ -7026,6 +7280,7 @@
         "kill_count": "0"
       },
       {
+        "id": 255,
         "name": "Sea Hag",
         "meta": "Medium fey, chaotic evil",
         "Armor Class": "14 (Natural Armor)",
@@ -7052,6 +7307,7 @@
         "kill_count": "0"
       },
       {
+        "id": 256,
         "name": "Sea Horse",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "11 ",
@@ -7077,6 +7333,7 @@
         "kill_count": "0"
       },
       {
+        "id": 257,
         "name": "Shadow",
         "meta": "Medium undead, chaotic evil",
         "Armor Class": "12 ",
@@ -7108,6 +7365,7 @@
         "kill_count": "0"
       },
       {
+        "id": 258,
         "name": "Shambling Mound",
         "meta": "Large plant, unaligned",
         "Armor Class": "15 (Natural Armor)",
@@ -7138,6 +7396,7 @@
         "kill_count": "0"
       },
       {
+        "id": 259,
         "name": "Shield Guardian",
         "meta": "Large construct, unaligned",
         "Armor Class": "17 (Natural Armor)",
@@ -7167,6 +7426,7 @@
         "kill_count": "0"
       },
       {
+        "id": 260,
         "name": "Shrieker",
         "meta": "Medium plant, unaligned",
         "Armor Class": "5 ",
@@ -7194,6 +7454,7 @@
         "kill_count": "0"
       },
       {
+        "id": 261,
         "name": "Silver Dragon Wyrmling",
         "meta": "Medium dragon, lawful good",
         "Armor Class": "17 (Natural Armor)",
@@ -7222,6 +7483,7 @@
         "kill_count": "0"
       },
       {
+        "id": 262,
         "name": "Skeleton",
         "meta": "Medium undead, lawful evil",
         "Armor Class": "13 (Armor Scraps)",
@@ -7250,6 +7512,7 @@
         "kill_count": "0"
       },
       {
+        "id": 263,
         "name": "Solar",
         "meta": "Large celestial, lawful good",
         "Armor Class": "21 (Natural Armor)",
@@ -7282,6 +7545,7 @@
         "kill_count": "0"
       },
       {
+        "id": 264,
         "name": "Spectator",
         "meta": "Medium aberration, lawful neutral",
         "Armor Class": "14 Natural",
@@ -7310,6 +7574,7 @@
         "kill_count": "0"
       },
       {
+        "id": 265,
         "name": "Specter",
         "meta": "Medium undead, chaotic evil",
         "Armor Class": "12 ",
@@ -7339,6 +7604,7 @@
         "kill_count": "0"
       },
       {
+        "id": 266,
         "name": "Spider",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "12 ",
@@ -7366,6 +7632,7 @@
         "kill_count": "0"
       },
       {
+        "id": 267,
         "name": "Spirit Naga",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "15 (Natural Armor)",
@@ -7395,6 +7662,7 @@
         "kill_count": "0"
       },
       {
+        "id": 268,
         "name": "Sprite",
         "meta": "Tiny fey, neutral good",
         "Armor Class": "15 (Leather Armor)",
@@ -7421,6 +7689,7 @@
         "kill_count": "0"
       },
       {
+        "id": 269,
         "name": "Spy",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 ",
@@ -7448,6 +7717,7 @@
         "kill_count": "0"
       },
       {
+        "id": 270,
         "name": "Steam Mephit",
         "meta": "Small elemental, neutral evil",
         "Armor Class": "10 ",
@@ -7476,6 +7746,7 @@
         "kill_count": "0"
       },
       {
+        "id": 271,
         "name": "Stirge",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "14 (Natural Armor)",
@@ -7501,6 +7772,7 @@
         "kill_count": "0"
       },
       {
+        "id": 272,
         "name": "Stone Giant",
         "meta": "Huge giant, neutral",
         "Armor Class": "17 (Natural Armor)",
@@ -7530,6 +7802,7 @@
         "kill_count": "0"
       },
       {
+        "id": 273,
         "name": "Stone Golem",
         "meta": "Large construct, unaligned",
         "Armor Class": "17 (Natural Armor)",
@@ -7558,6 +7831,7 @@
         "kill_count": "0"
       },
       {
+        "id": 274,
         "name": "Storm Giant",
         "meta": "Huge giant, chaotic good",
         "Armor Class": "16 (Scale Mail)",
@@ -7588,6 +7862,7 @@
         "kill_count": "0"
       },
       {
+        "id": 275,
         "name": "Succubus/Incubus",
         "meta": "Medium fiend, neutral evil",
         "Armor Class": "15 (Natural Armor)",
@@ -7616,6 +7891,7 @@
         "kill_count": "0"
       },
       {
+        "id": 276,
         "name": "Swarm of Bats",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -7644,6 +7920,7 @@
         "kill_count": "0"
       },
       {
+        "id": 277,
         "name": "Swarm of Insects",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 (Natural Armor)",
@@ -7672,6 +7949,7 @@
         "kill_count": "0"
       },
       {
+        "id": 278,
         "name": "Swarm of Poisonous Snakes",
         "meta": "Medium beast, unaligned",
         "Armor Class": "14 ",
@@ -7700,6 +7978,7 @@
         "kill_count": "0"
       },
       {
+        "id": 279,
         "name": "Swarm of Quippers",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 ",
@@ -7728,6 +8007,7 @@
         "kill_count": "0"
       },
       {
+        "id": 280,
         "name": "Swarm of Rats",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -7756,6 +8036,7 @@
         "kill_count": "0"
       },
       {
+        "id": 281,
         "name": "Swarm of Ravens",
         "meta": "Medium beast, unaligned",
         "Armor Class": "12 ",
@@ -7785,6 +8066,7 @@
         "kill_count": "0"
       },
       {
+        "id": 282,
         "name": "Tarrasque",
         "meta": "Gargantuan monstrosity, unaligned",
         "Armor Class": "25 (Natural Armor)",
@@ -7815,6 +8097,7 @@
         "kill_count": "0"
       },
       {
+        "id": 283,
         "name": "Thug",
         "meta": "Medium humanoid, any",
         "Armor Class": "11 (Leather Armor)",
@@ -7842,6 +8125,7 @@
         "kill_count": "0"
       },
       {
+        "id": 284,
         "name": "Tiger",
         "meta": "Large beast, unaligned",
         "Armor Class": "12 ",
@@ -7869,6 +8153,7 @@
         "kill_count": "0"
       },
       {
+        "id": 285,
         "name": "Treant",
         "meta": "Huge plant, chaotic good",
         "Armor Class": "16 (Natural Armor)",
@@ -7897,6 +8182,7 @@
         "kill_count": "0"
       },
       {
+        "id": 286,
         "name": "Tribal Warrior",
         "meta": "Medium humanoid, any",
         "Armor Class": "12 (Hide Armor)",
@@ -7923,6 +8209,7 @@
         "kill_count": "0"
       },
       {
+        "id": 287,
         "name": "Triceratops",
         "meta": "Huge beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -7949,6 +8236,7 @@
         "kill_count": "0"
       },
       {
+        "id": 288,
         "name": "Troll",
         "meta": "Large giant, chaotic evil",
         "Armor Class": "15 (Natural Armor)",
@@ -7976,6 +8264,7 @@
         "kill_count": "0"
       },
       {
+        "id": 289,
         "name": "Twig Blight",
         "meta": "Small plant, neutral evil",
         "Armor Class": "13 Natural Armor",
@@ -8005,6 +8294,7 @@
         "kill_count": "0"
       },
       {
+        "id": 290,
         "name": "Tyrannosaurus Rex",
         "meta": "Huge beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -8031,6 +8321,7 @@
         "kill_count": "0"
       },
       {
+        "id": 291,
         "name": "Unicorn",
         "meta": "Large celestial, lawful good",
         "Armor Class": "12 ",
@@ -8060,6 +8351,7 @@
         "kill_count": "0"
       },
       {
+        "id": 292,
         "name": "Vampire",
         "meta": "Medium undead, lawful evil",
         "Armor Class": "16 (Natural Armor)",
@@ -8090,6 +8382,7 @@
         "kill_count": "0"
       },
       {
+        "id": 293,
         "name": "Vampire Spawn",
         "meta": "Medium undead, neutral evil",
         "Armor Class": "15 (Natural Armor)",
@@ -8119,6 +8412,7 @@
         "kill_count": "0"
       },
       {
+        "id": 294,
         "name": "Veteran",
         "meta": "Medium humanoid, any",
         "Armor Class": "17 (Splint)",
@@ -8145,6 +8439,7 @@
         "kill_count": "0"
       },
       {
+        "id": 295,
         "name": "Violet Fungus",
         "meta": "Medium plant, unaligned",
         "Armor Class": "5 ",
@@ -8172,6 +8467,7 @@
         "kill_count": "0"
       },
       {
+        "id": 296,
         "name": "Vrock",
         "meta": "Large fiend, chaotic evil",
         "Armor Class": "15 (Natural Armor)",
@@ -8202,6 +8498,7 @@
         "kill_count": "0"
       },
       {
+        "id": 297,
         "name": "Vulture",
         "meta": "Medium beast, unaligned",
         "Armor Class": "10 ",
@@ -8229,6 +8526,7 @@
         "kill_count": "0"
       },
       {
+        "id": 298,
         "name": "Warhorse",
         "meta": "Large beast, unaligned",
         "Armor Class": "11 ",
@@ -8255,6 +8553,7 @@
         "kill_count": "0"
       },
       {
+        "id": 299,
         "name": "Warhorse Skeleton",
         "meta": "Large undead, lawful evil",
         "Armor Class": "13 (Barding Scraps)",
@@ -8283,6 +8582,7 @@
         "kill_count": "0"
       },
       {
+        "id": 300,
         "name": "Water Elemental",
         "meta": "Large elemental, neutral",
         "Armor Class": "14 (Natural Armor)",
@@ -8312,6 +8612,7 @@
         "kill_count": "0"
       },
       {
+        "id": 301,
         "name": "Weasel",
         "meta": "Tiny beast, unaligned",
         "Armor Class": "13 ",
@@ -8339,6 +8640,7 @@
         "kill_count": "0"
       },
       {
+        "id": 302,
         "name": "Werebear",
         "meta": "Medium humanoid, neutral good",
         "Armor Class": "10 In Humanoid Form, 11 In Bear And Hybrid Form",
@@ -8367,6 +8669,7 @@
         "kill_count": "0"
       },
       {
+        "id": 303,
         "name": "Wereboar",
         "meta": "Medium humanoid, neutral evil",
         "Armor Class": "10 In Humanoid Form, 11 In Boar Or Hybrid Form",
@@ -8395,6 +8698,7 @@
         "kill_count": "0"
       },
       {
+        "id": 304,
         "name": "Wererat",
         "meta": "Medium humanoid, lawful evil",
         "Armor Class": "12 ",
@@ -8423,6 +8727,7 @@
         "kill_count": "0"
       },
       {
+        "id": 305,
         "name": "Weretiger",
         "meta": "Medium humanoid, neutral",
         "Armor Class": "12 ",
@@ -8451,6 +8756,7 @@
         "kill_count": "0"
       },
       {
+        "id": 306,
         "name": "Werewolf",
         "meta": "Medium humanoid, chaotic evil",
         "Armor Class": "11 In Humanoid Form, 12 In Wolf Or Hybrid Form",
@@ -8479,6 +8785,7 @@
         "kill_count": "0"
       },
       {
+        "id": 307,
         "name": "White Dragon Wyrmling",
         "meta": "Medium dragon, chaotic evil",
         "Armor Class": "16 (Natural Armor)",
@@ -8507,6 +8814,7 @@
         "kill_count": "0"
       },
       {
+        "id": 308,
         "name": "Wight",
         "meta": "Medium undead, neutral evil",
         "Armor Class": "14 (Studded Leather)",
@@ -8537,6 +8845,7 @@
         "kill_count": "0"
       },
       {
+        "id": 309,
         "name": "Will-o'-Wisp",
         "meta": "Tiny undead, chaotic evil",
         "Armor Class": "19 ",
@@ -8566,6 +8875,7 @@
         "kill_count": "0"
       },
       {
+        "id": 310,
         "name": "Winter Wolf",
         "meta": "Large monstrosity, neutral evil",
         "Armor Class": "13 (Natural Armor)",
@@ -8594,6 +8904,7 @@
         "kill_count": "0"
       },
       {
+        "id": 311,
         "name": "Wolf",
         "meta": "Medium beast, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -8621,6 +8932,7 @@
         "kill_count": "0"
       },
       {
+        "id": 312,
         "name": "Worg",
         "meta": "Large monstrosity, neutral evil",
         "Armor Class": "13 (Natural Armor)",
@@ -8648,6 +8960,7 @@
         "kill_count": "0"
       },
       {
+        "id": 313,
         "name": "Wraith",
         "meta": "Medium undead, neutral evil",
         "Armor Class": "13 ",
@@ -8677,6 +8990,7 @@
         "kill_count": "0"
       },
       {
+        "id": 314,
         "name": "Wyvern",
         "meta": "Large dragon, unaligned",
         "Armor Class": "13 (Natural Armor)",
@@ -8703,6 +9017,7 @@
         "kill_count": "0"
       },
       {
+        "id": 315,
         "name": "Xorn",
         "meta": "Medium elemental, neutral",
         "Armor Class": "19 (Natural Armor)",
@@ -8731,6 +9046,7 @@
         "kill_count": "0"
       },
       {
+        "id": 316,
         "name": "Yeti",
         "meta": "Large monstrosity, chaotic evil",
         "Armor Class": "12 Natural Armor",
@@ -8759,6 +9075,7 @@
         "kill_count": "0"
       },
       {
+        "id": 317,
         "name": "Young Black Dragon",
         "meta": "Large dragon, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -8788,6 +9105,7 @@
         "kill_count": "0"
       },
       {
+        "id": 318,
         "name": "Young Blue Dragon",
         "meta": "Large dragon, lawful evil",
         "Armor Class": "18 (Natural Armor)",
@@ -8816,6 +9134,7 @@
         "kill_count": "0"
       },
       {
+        "id": 319,
         "name": "Young Brass Dragon",
         "meta": "Large dragon, chaotic good",
         "Armor Class": "17 (Natural Armor)",
@@ -8844,6 +9163,7 @@
         "kill_count": "0"
       },
       {
+        "id": 320,
         "name": "Young Bronze Dragon",
         "meta": "Large dragon, lawful good",
         "Armor Class": "18 (Natural Armor)",
@@ -8873,6 +9193,7 @@
         "kill_count": "0"
       },
       {
+        "id": 321,
         "name": "Young Copper Dragon",
         "meta": "Large dragon, chaotic good",
         "Armor Class": "17 (Natural Armor)",
@@ -8901,6 +9222,7 @@
         "kill_count": "0"
       },
       {
+        "id": 322,
         "name": "Young Gold Dragon",
         "meta": "Large dragon, lawful good",
         "Armor Class": "18 (Natural Armor)",
@@ -8930,6 +9252,7 @@
         "kill_count": "0"
       },
       {
+        "id": 323,
         "name": "Young Green Dragon",
         "meta": "Large dragon, lawful evil",
         "Armor Class": "18 (Natural Armor)",
@@ -8960,6 +9283,7 @@
         "kill_count": "0"
       },
       {
+        "id": 324,
         "name": "Young Red Dragon",
         "meta": "Large dragon, chaotic evil",
         "Armor Class": "18 (Natural Armor)",
@@ -8988,6 +9312,7 @@
         "kill_count": "0"
       },
       {
+        "id": 325,
         "name": "Young Silver Dragon",
         "meta": "Large dragon, lawful good",
         "Armor Class": "18 (Natural Armor)",
@@ -9016,6 +9341,7 @@
         "kill_count": "0"
       },
       {
+        "id": 326,
         "name": "Young White Dragon",
         "meta": "Large dragon, chaotic evil",
         "Armor Class": "17 (Natural Armor)",
@@ -9045,7 +9371,7 @@
         "kill_count": "0"
       },
       {
-        "name": "Zombie",
+        "id": 327,"name": "Zombie",
         "meta": "Medium undead, neutral evil",
         "Armor Class": "8 ",
         "Hit Points": "22 (3d8 + 9)",
@@ -9073,7 +9399,5 @@
         "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/71/1000/1000/636252733510786769.jpeg",
         "kill_count": "0"
       }
-    ],
-    "monstersUpdated": [
-      {}]
+    ]
   }

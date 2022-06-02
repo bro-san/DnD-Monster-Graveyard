@@ -79,10 +79,6 @@ randomMonsterBtn.addEventListener('click', e => {
 
 })
 
-//adding persistent kill count function to kill button
-// const killCountBtn = document.querySelector('button#kill-button')
-// killCountBtn.addEventListener('click', e => {
-
 const submitCharForm = document.getElementById('grave-form')
 const graveNav = document.getElementById('graves')
 
@@ -156,8 +152,11 @@ function closeModal(modal) {
     modal.classList.remove('active')
 }
 
-function monsterDataUpdater () {
-  monsterData.forEach(element => {
+function monsterDataUpdater (element) {
+  // fetch('http://localhost:3000/monsters/')
+  // .then(res => res.json())
+  // .then(data => {
+  //   data.forEach(element => {
     fetch('http://localhost:3000/monstersUpdated', {
       method: 'POST',
       headers: {
@@ -167,6 +166,7 @@ function monsterDataUpdater () {
       body: JSON.stringify(element)
     })
     .then(res => res.text())
-    .then(dat => console.log(dat))
-  })
-}
+    .then(text => console.log(text))
+  }
+  //)})
+//}
