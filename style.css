@@ -216,4 +216,34 @@ body{
   /* #overlay.active {
       opacity: 1;
       pointer-events: all;
-  } */
+  } 
+
+  #graves {
+    background-image: url('https://live.staticflickr.com/79/282630595_65f897a07f_h.jpg');
+    background-size: 1500px;
+    background-position: bottom;
+    height: 300px;
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    min-height: 400px;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+
+  .grave {
+    background-image:url('https://i.pinimg.com/originals/b0/68/4f/b0684fa81be33524442a41a9bb3ea28f.png');
+    background-size: 150px;
+    width: 150px;
+    height: 150px;
+  }
+#grave-form {
+    background-color:#E69A28;
+    text-align: center;
+}
+
+#character-filler {
+    text-size-adjust: 200%;
+}

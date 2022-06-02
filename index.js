@@ -3,6 +3,8 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
+const submitCharForm = document.getElementById('grave-form')
+const graveNav = document.getElementById('graves')
 
 var monster
 var monsterData;
@@ -49,6 +51,7 @@ function displayMonster (element) {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
+
            killCount.textContent = element.kill_count
   }
 
@@ -90,14 +93,15 @@ randomMonsterBtn.addEventListener('click', e => {
 })
 
 
-const submitCharForm = document.getElementById('grave-form')
-const graveNav = document.getElementById('graves')
 
 submitCharForm.addEventListener("submit", (e) => {
     e.preventDefault();
     let newGrave = document.createElement('div')
     newGrave.classList.add("grave")
+    // let graveImg = document.createElement('img')
+    // graveImg.src = "https://i.pinimg.com/originals/b0/68/4f/b0684fa81be33524442a41a9bb3ea28f.png"
     //newGrave.addClass('grave')
+    //newGrave.append(graveImg);
     let deceasedName = document.createElement('h4')
     deceasedName.innerText = e.target['character-name'].value
     let deceasedInfo = document.createElement('p')
