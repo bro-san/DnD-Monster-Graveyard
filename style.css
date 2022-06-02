@@ -47,6 +47,7 @@ body{
     display: inline-flex;
      display: flex;
     justify-content: center;
+    margin-top: 50px;
 } 
 
 #monster-randomizer{
@@ -101,7 +102,8 @@ body{
     display: flex;
         justify-content: space-around;
         align-items: flex-end;
-        align-items: flex-end;
+        margin-top: 50px;
+        margin-bottom: 25px;
     }
 
 #monster-info {
@@ -118,7 +120,7 @@ body{
     background: #bfc485;
     color: #202929;
     border: none;
-    /* display: inline-block; */
+    cursor: pointer;
     font-family: 'Open Sans';
     padding: 10px;
     padding-left: 15px;
@@ -152,9 +154,7 @@ body{
     border-top-right-radius: 5px;
     max-width: 400px;
 }
-#kill-button {
-    align-self: center;
-}
+
 
 #monster-pic {
     align-self: center;
@@ -186,8 +186,6 @@ body{
 
 #content {
     padding: 10px 15px;
-
-
   }
    /* #expanded-description {
     padding: 5px 15px;
@@ -252,8 +250,10 @@ body{
     height: 150px;
   }
 #grave-form {
-    background-color:#af0d02;
+    background-color:#382b2a;
     text-align: center;
+    z-index: 1;
+    opacity: 0.8;
 }
 
 #character-filler {
@@ -264,18 +264,39 @@ body{
     display: inline-flex;
      display: flex;
     justify-content: center;
+
 }
 
 .form-input{
-    border-radius: 5px;
     font-size: 1.5rem;
     border: 2px solid #ecdddc;
-   outline: none;
-   background-color: #fffdfd;
- 
+   outline: none; 
+   background-color: #fffdfd; 
 }
 
+.form-input:focus {
+    color:#160302;
+}
+
+#character-name{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 #form-name{
     font-size: 1.5rem;
-    color: white;
+    color: rgb(240, 232, 232);
+}
+
+#character-level{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#character-submit {
+    padding: 6px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #af0d02;
+    color:#fff;
+    cursor: pointer;
 }
