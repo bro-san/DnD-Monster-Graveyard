@@ -40,9 +40,9 @@ html {
 }
 
 
-#monster-randomizer {
+/* #monster-randomizer {
     
-}
+} */
 
 #flexbox-container {
     display: flex;
@@ -98,10 +98,60 @@ html {
 
 }
 
+.modal-container{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 3px solid  #E69A28;
+    border-radius: 10px;
+    background-color: #FDF1DC;
+    z-index: 10;
+    width: 500px;
+    max-width: 80%;
+}
+.modal-container.active {
+    transform: translate(-50%, -50%) scale(1);
+}
 
 #content {
-    padding: 0 18px;
-    display: none;
-    overflow: hidden;
-    background-color: #f1f1f1;
+    padding: 10px 15px;
+  }
+  /* #expanded-description {
+    padding: 5px 15px;
+  }
+  #creature-name {
+    padding: 5px 15px;
+  }
+  #monster-meta{
+    padding: 5px 15px;
+  } */
+
+  #close {
+    position: relative;
+    left: 450px;
+      cursor: pointer;
+      border: none;
+      outline: none;
+      background: none;
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+
+  #overlay{
+      position: fixed;
+      opacity: 0;
+      transition: 200ms ease-in-out;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color:rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+
+  #overlay.active {
+      opacity: 1;
+      pointer-events: all;
   }

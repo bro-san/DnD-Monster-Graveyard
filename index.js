@@ -6,18 +6,18 @@ const monsterButton = document.getElementsByClassName("collapsible");
 
 
 
-let i;
-for (i = 0; i < monsterButton.length; i++) {
-    monsterButton[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+// let i;
+// for (i = 0; i < monsterButton.length; i++) {
+//     monsterButton[i].addEventListener("click", function() {
+//     this.classList.toggle("active");
+//     var content = this.nextElementSibling;
+//     if (content.style.display === "block") {
+//       content.style.display = "none";
+//     } else {
+//       content.style.display = "block";
+//     }
+//   });
+// }
 
 let monsterData = (monsterName) => {
     return fetch('http://localhost:3000/monsters/')
@@ -31,7 +31,12 @@ let monsterData = (monsterName) => {
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
            let monsterDetails = document.getElementById('expanded-description')
-           monsterDetails.innerHTML = (`<strong>Armor Class:</strong> ${element['Armor Class']}
+           let creatureName = document.querySelector("#creature-name")
+           creatureName.textContent = element.name
+           let monsterMeta = document.querySelector('#monster-meta')
+           monsterMeta.textContent = element.meta
+           monsterDetails.innerHTML = (
+            `<strong>Armor Class:</strong> ${element['Armor Class']}
            <br><strong>Hit Points:</strong> ${element['Hit Points']}
            <br><strong>Speed:</strong> ${element.Speed}
            <br><strong>Ability Scores</strong> <br>Strength: ${element.STR} <br>Dexterity: ${element.DEX} <br>Constitution: ${element.CON} <br>Intelligence: ${element.INT} <br>Wisdom: ${element.WIS} <br>Charisma: ${element.CHA}
@@ -73,3 +78,35 @@ const killCountBtn = document.querySelector('button#kill-button')
 killCountBtn.addEventListener('click', e => {
 
 })
+
+
+
+
+const openModelButton = document.querySelector('[data-modal-target]')
+const closeModelButton = document.querySelector('[data-modal-close]')
+const overlay = document.querySelector('#overlay')
+
+openModelButton.addEventListener('click', () => {
+    const modal = document.querySelector(openModelButton.dataset.modalTarget)
+    openModal(modal)
+    console.log(modal)
+
+})
+closeModelButton.addEventListener('click', () => {
+    const modal = closeModelButton.closest('.modal-container')
+    closeModal(modal)
+    console.log(modal)
+
+})
+
+function openModal(modal) {
+    if (modal == null) return
+    modal.classList.add('active')
+    modal.classList.add('active')
+}
+
+function closeModal(modal) {
+    if (modal == null) return
+    modal.classList.remove('active')
+    modal.classList.remove('active')
+}
