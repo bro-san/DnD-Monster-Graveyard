@@ -5,6 +5,15 @@ html {
     margin: 0;
 
 }
+body{
+    background-image: url('https://staticdelivery.nexusmods.com/mods/2298/images/957/957-1584101320-1219320323.png');
+    width: 100%;
+    height: 100%;
+    background-position: 50% 200px;
+    background-repeat: no-repeat; 
+}
+
+
 
 .img-container {
     background-image: url('https://media.dnd.wizards.com/styles/second_hubpage_banner/public/images/head-banner/04-PRODUCT-INFO_Tabletop_Hero_MM_1.jpg');
@@ -32,19 +41,58 @@ html {
     border-radius: 5px;
 }
 
+
 #monster-submit {
-    display: flex;
+ 
+    display: inline-flex;
+     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
+
+    /* flex-wrap: wrap; */
+
+    /* width: 100%; */
+} 
+
+#monster-randomizer{
+    font-size: 1rem;
+    justify-content: center;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px;
+    background-color: #af0d02;
+    color: #fff;
+}
+.random-btn{
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+.search-button{
+    font-size: 1.5rem;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #af0d02;
+    color:#fff;
+    cursor: pointer;
+}
+
+#monster-search{
+    font-size: 1.5rem;
+
+   border: none;
+   outline: none;
+   background-color: #aa5954;
+}
+
+/* #monster-search::placeholder{
+     */
 }
 
 
-/* #monster-randomizer {
-    
-} */
+
 
 #flexbox-container {
+
     display: flex;
         justify-content: space-around;
         align-items: flex-end;
@@ -53,17 +101,29 @@ html {
 
 #monster-info {
     align-self: center;
-    background-color: #ff1512;
+    background-color: #927f7e;
     border-radius: 5px;
+ 
 
 }
 
-
+#expanded-info-button{
+    border-radius: 5px;
+    border-color: #ffffff;
+    background: #bfc485;
+    color: #202929;
+    border: none;
+    /* display: inline-block; */
+    font-family: 'Open Sans';
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .btn {
     border-radius: 5px;
     border-color: #ffffff;
     background: #bfc485;
-    color: #e3e660;
+    color: #202929;
     border: none;
     /* display: inline-block; */
     font-family: 'Open Sans';
@@ -93,7 +153,7 @@ html {
 #monster-pic {
     align-self: center;
     display: block;
-    background-color: #ff1512;
+    background-color: #9b807f;
     border-radius: 5px;
 
 }
