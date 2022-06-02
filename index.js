@@ -31,10 +31,10 @@ function displayMonster (element) {
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
-        //    let creatureName = document.querySelector("#creature-name")
-        //    creatureName.textContent = element.name
-        //    let monsterMeta = document.querySelector('#monster-meta')
-        //    monsterMeta.textContent = element.meta
+          let creatureName = document.querySelector("#creature-name")
+          creatureName.textContent = element.name
+          let monsterMeta = document.querySelector('#monster-meta')
+          monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
            monsterDetails.innerHTML = (
             `<strong>Armor Class:</strong> ${element['Armor Class']}
@@ -49,7 +49,7 @@ function displayMonster (element) {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
-           killCount.innerHTML = element.kill_count
+           killCount.textContent = element.kill_count
   }
 
 let killCountBtn = document.querySelector('button#kill-button')

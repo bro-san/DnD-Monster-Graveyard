@@ -3071,7 +3071,7 @@
       "Challenge": "9 (5,000 XP)",
       "Actions": "<p><em><strong>Multiattack.</strong></em> The giant makes two greatsword attacks. </p><p><em><strong>Greatsword.</strong></em> <em>Melee Weapon Attack:</em> +11 to hit, reach 10 ft., one target. <em>Hit:</em> 28 (6d6 + 7) slashing damage. </p><p><em><strong>Rock.</strong></em> <em>Ranged Weapon Attack:</em> +11 to hit, range 60/240 ft., one target. <em>Hit:</em> 29 (4d10 + 7) bludgeoning damage.</p>",
       "img_url": "https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/357/1000/1000/636252778143767005.jpeg",
-      "kill_count": "0"
+      "kill_count": "8"
     },
     {
       "id": 107,
@@ -9402,4 +9402,3 @@
     }
   ]
 }
-
