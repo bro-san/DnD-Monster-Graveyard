@@ -69,6 +69,7 @@ function updateKills (e) {
     })
     .then(res => res.json())
     .then(json => console.log(json))
+
 }
 
 submitForm.addEventListener("submit", (e) => {
@@ -159,4 +160,19 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
     modal.classList.remove('active')
+}
+
+function monsterDataUpdater () {
+  monsterData.forEach(element => {
+    fetch('http://localhost:3000/monstersUpdated', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(element)
+    })
+    .then(res => res.text())
+    .then(dat => console.log(dat))
+  })
 }
