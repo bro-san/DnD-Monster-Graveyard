@@ -8,20 +8,25 @@
 </head>
 
 <body>
+  <!-- <div class="bg-image"></div> -->
   <div class="img-container">
     <div class="inner-conatainer">
       <h1 id="site-name">WHAT KILLED YOU!?</h1>
     </div>
   </div>
 
-  <div id="monster-submit">
-    <form id="monster-form">
-      <label for="mname">Monster</label>
+
+  
+  <form id="monster-form">
+    <div id="monster-submit">
+      <!-- <label for="mname">Monster</label> -->
+      <button id="monster-randomizer" class="random-btn">IDK...maybe this?!</button>
       <input type="text" id="monster-search" name="monster" placeholder="Enter Monster">
-      <input type="submit" value="Search 👹">
+      <input class="search-button" type="submit" value="Search">
+    </div>
     </form>
-    <button id="monster-randomizer" class="btn">Randomizer</button>
-  </div>
+ 
+
   <div id="flexbox-container">
     <div id="monster-info">
       <h2 id="monster-name">Monster Name</h2>
@@ -38,12 +43,14 @@
           <p id="expanded-description"></p>
         </div>
       </div>
+
       <div  id="overlay"></div>
+
     </div>
 
     <div id="monster-pic">
       <img id="monster-image"
-        src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg" />
+        src="https://cdn.pixabay.com/photo/2020/07/30/12/06/question-mark-5450223_1280.jpg" />
       <h4>Total Kills: <span id="kill-count">0</span></h4>
       <button id="kill-button" class="btn">Death</button>
     </div>
@@ -63,8 +70,6 @@
       </form>
       <nav id="graves"></nav>
   </div>
-
-
 </body>
 
 </html>
