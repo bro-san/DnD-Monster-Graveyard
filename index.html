@@ -39,8 +39,6 @@
         </div>
       </div>
       <div  id="overlay"></div>
-
-
     </div>
 
     <div id="monster-pic">
@@ -48,6 +46,18 @@
         src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg" />
       <h4>Total Kills: <span id="kill-count">0</span></h4>
       <button id="kill-button" class="btn">Death</button>
+    </div>
+    <div id="graveyard">
+      <form id="grave-form">
+        <label for="character-filler"></label>
+        <input type="text" id="character-name" name="charName" placeholder="Character Name">
+        <input type="text" id="character-race" name="charRace" placeholder="Character Race">
+        <input type="text" id="character-class" name="charClass" placeholder="Character Class">
+        <input type="text" id="character-level" name="charLevel" placeholder="Character Level">
+        <input type="submit" value="Remember the Fallen">
+      </form>
+      <nav id="graves"></nav>
+
     </div>
 
 
