@@ -31,10 +31,10 @@ function displayMonster (element) {
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
-           let creatureName = document.querySelector("#creature-name")
-           creatureName.textContent = element.name
-           let monsterMeta = document.querySelector('#monster-meta')
-           monsterMeta.textContent = element.meta
+        //    let creatureName = document.querySelector("#creature-name")
+        //    creatureName.textContent = element.name
+        //    let monsterMeta = document.querySelector('#monster-meta')
+        //    monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
            monsterDetails.innerHTML = (
             `<strong>Armor Class:</strong> ${element['Armor Class']}
@@ -89,6 +89,7 @@ randomMonsterBtn.addEventListener('click', e => {
 
 })
 
+
 const submitCharForm = document.getElementById('grave-form')
 const graveNav = document.getElementById('graves')
 
@@ -135,7 +136,7 @@ submitCharForm.addEventListener("submit", (e) => {
 
 const openModelButton = document.querySelector('[data-modal-target]')
 const closeModelButton = document.querySelector('[data-modal-close]')
-const overlay = document.querySelector('#overlay')
+// const overlay = document.querySelector('#overlay')
 
 openModelButton.addEventListener('click', () => {
     const modal = document.querySelector(openModelButton.dataset.modalTarget)
@@ -153,13 +154,13 @@ closeModelButton.addEventListener('click', () => {
 function openModal(modal) {
     if (modal == null) return
     modal.classList.add('active')
-    modal.classList.add('active')
+    // overlay.classList.add('active')
 }
 
 function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
-    modal.classList.remove('active')
+    // overlay.classList.remove('active')
 }
 
 function monsterDataUpdater () {
