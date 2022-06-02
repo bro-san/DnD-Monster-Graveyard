@@ -8,11 +8,11 @@
 </head>
 
 <body>
-<div class="img-container">
-  <div class="inner-conatainer">
-    <h1 id="site-name">WHAT KILLED YOU!?</h1>
+  <div class="img-container">
+    <div class="inner-conatainer">
+      <h1 id="site-name">WHAT KILLED YOU!?</h1>
+    </div>
   </div>
-</div>
 
   <div id="monster-submit">
     <form id="monster-form">
@@ -20,31 +20,38 @@
       <input type="text" id="monster-search" name="monster" placeholder="Enter Monster">
       <input type="submit" value="Search 👹">
     </form>
-     <button id="monster-randomizer" class="btn">Randomizer</button>
-    </div>
-    <div id="flexbox-container">
-      <div id="monster-info">
-        <h2 id="monster-name">Monster Name</h2>
-        </h2>
-        <p id="description">
-          Description
-        </p>
-        <button class= "collapsible" id="expanded-info-button">Details</button>
-        <div id="content">
+    <button id="monster-randomizer" class="btn">Randomizer</button>
+  </div>
+  <div id="flexbox-container">
+    <div id="monster-info">
+      <h2 id="monster-name">Monster Name</h2>
+      </h2>
+      <p id="description">
+        Description
+      </p>
+      <button data-modal-target=".modal-container" class="collapsible" id="expanded-info-button">Details</button>
+      <div class="modal-container" id="modal_container">
+        <div id="content" class="modal">
+          <button data-modal-close id="close">&times;</button>
+          <h1 id="creature-name"></h1>
+          <h2 id="monster-meta"></h2>
           <p id="expanded-description"></p>
         </div>
-       
       </div>
-
-      <div id="monster-pic">
-        <img id="monster-image"
-          src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg" />
-        <h4>Total Kills: <span id="kill-count"></span></h4>
-        <button id="kill-button" class="btn">Death</button>
-      </div>
+      <div  id="overlay"></div>
 
 
     </div>
+
+    <div id="monster-pic">
+      <img id="monster-image"
+        src="https://media-waterdeep.cursecdn.com/avatars/thumbnails/0/11/1000/1000/636238825975375671.jpeg" />
+      <h4>Total Kills: <span id="kill-count">0</span></h4>
+      <button id="kill-button" class="btn">Death</button>
+    </div>
+
+
+  </div>
 
 </body>
 
