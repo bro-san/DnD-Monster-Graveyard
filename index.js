@@ -90,7 +90,10 @@ submitCharForm.addEventListener("submit", (e) => {
     e.preventDefault();
     let newGrave = document.createElement('div')
     newGrave.classList.add("grave")
+    // let graveImg = document.createElement('img')
+    // graveImg.src = "https://i.pinimg.com/originals/b0/68/4f/b0684fa81be33524442a41a9bb3ea28f.png"
     //newGrave.addClass('grave')
+    //newGrave.append(graveImg);
     let deceasedName = document.createElement('h4')
     deceasedName.innerText = e.target['character-name'].value
     let deceasedInfo = document.createElement('p')
