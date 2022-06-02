@@ -3,6 +3,8 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
+//console.log(killCount.textContent)
+
 
 var monsterData;
 
@@ -30,6 +32,10 @@ function displayMonster (element) {
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
            monsterImg.src = element.img_url
+           let creatureName = document.querySelector("#creature-name")
+           creatureName.textContent = element.name
+           let monsterMeta = document.querySelector('#monster-meta')
+           monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
            monsterDetails.innerHTML = (`<strong>Armor Class:</strong> ${element['Armor Class']}
            <br><strong>Hit Points:</strong> ${element['Hit Points']}
@@ -43,7 +49,18 @@ function displayMonster (element) {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
+           killCount.innerHTML = element.kill_count
+           let killCountBtn = document.querySelector('button#kill-button')
+           killCountBtn.addEventListener('click', e => {
+            updateKills(element.kill_count)
+            //saveKills(monster)
+           })
   }
+
+function updateKills (e) {
+  currentKills = parseInt(killCount.textContent, 10)
+  killCount.textContent = `${currentKills + 1}`
+}
 
 submitForm.addEventListener("submit", (e) => {
     e.preventDefault();
@@ -58,17 +75,12 @@ submitForm.addEventListener("submit", (e) => {
 const randomMonsterBtn = document.querySelector('button#monster-randomizer')
 randomMonsterBtn.addEventListener('click', e => {
   let randomNum = Math.floor(Math.random() * 327)
-  displayMonster(monsterData[randomNum])
+  displayMonster(monsterData[randomNum]);
+
 })
 
 //adding persistent kill count function to kill button
-const killCountBtn = document.querySelector('button#kill-button')
-killCountBtn.addEventListener('click', e => {
-    // element.kill_count+=1
-    let killInteger = parseInt(killCount.innerHTML, 10)
-    let newNumber = killInteger + 1
-    killCount.innerHTML = newNumber;
-    saveKills()
-})
+// const killCountBtn = document.querySelector('button#kill-button')
+// killCountBtn.addEventListener('click', e => {
 
-
+// })
