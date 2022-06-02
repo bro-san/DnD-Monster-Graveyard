@@ -51,6 +51,7 @@ function displayMonster (element) {
            <br><strong>Actions:</strong> ${element.Actions}
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
+           graveNav.innerHTML = ""
 
            killCount.textContent = element.kill_count
   }
