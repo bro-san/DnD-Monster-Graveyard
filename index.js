@@ -3,7 +3,7 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
-//console.log(killCount.textContent)
+
 
 
 var monsterData;
@@ -11,7 +11,6 @@ var monsterData;
 fetch('http://localhost:3000/monsters/')
   .then(res => res.json())
   .then(data => monsterData = data)
-
 
 // let i;
 // for (i = 0; i < monsterButton.length; i++) {
@@ -87,6 +86,55 @@ randomMonsterBtn.addEventListener('click', e => {
 //adding persistent kill count function to kill button
 // const killCountBtn = document.querySelector('button#kill-button')
 // killCountBtn.addEventListener('click', e => {
+
+const submitCharForm = document.getElementById('grave-form')
+const graveNav = document.getElementById('graves')
+
+submitCharForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let newGrave = document.createElement('div')
+    newGrave.classList.add("grave")
+    //newGrave.addClass('grave')
+    let deceasedName = document.createElement('h4')
+    deceasedName.innerText = e.target['character-name'].value
+    let deceasedInfo = document.createElement('p')
+    deceasedInfo.innerText = `Level ${e.target['character-level'].value}` + `\n` + `${e.target['character-race'].value}\n${e.target['character-class'].value}`
+    console.log(deceasedInfo.innerHTML)
+    deceasedName.append(deceasedInfo)
+    newGrave.append(deceasedName)
+    graveNav.appendChild(newGrave)
+
+
+    // let deceasedClass = document.createElement('h5')
+    // deceasedClass.innerText = e.target['character-class'].value
+    // let deceasedRace = document.createElement('h5')
+    // deceasedRace.innerText = e.target['character-race'].value
+    // let deceasedLevel = document.createElement('h5')
+    // deceasedClass.innerText = e.target['character-level'].value
+    // graveNav.appendChild(deceasedName, deceasedRace, deceasedClass, deceasedLevel)
+
+    console.log(deceasedName.innerText);
+    console.log('click')
+    submitCharForm.reset();
+})
+
+//const digGrave = 
+
+
+
+
+
+{/* <div id="graveyard">
+<form id="grave-form">
+  <label for="character-filler"></label>
+  <input type="text" id="character-name" name="charName" placeholder="Character Name">
+  <input type="text" id="character-race" name="charRace" placeholder="Character Race">
+  <input type="text" id="character-class" name="charClass" placeholder="Character Class">
+  <input type="text" id="character-level" name="charLevel" placeholder="Character Level">
+  <input type="submit" value="Remember the Fallen">
+</form>
+<nav id="graves"></nav> */}
+=======
 
 
 const openModelButton = document.querySelector('[data-modal-target]')
