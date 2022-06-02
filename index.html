@@ -2,7 +2,7 @@
 <html LANG="en">
 
 <head>
-  <title>WHAT KILLED ME?</title>
+  <title>DnD Graveyard</title>
   <link rel="stylesheet" type="text/css" href="./style.css" />
   <script defer src="index.js"></script>
 </head>
@@ -59,14 +59,17 @@
   </div>
   <div id="graveyard">
       <form id="grave-form">
-        <label for="character-filler"><strong>Fill the Graveyard</strong></label>
-        <br>
-        <input type="text" id="character-name" name="charName" placeholder="Character Name">
-        <input type="text" id="character-race" name="charRace" placeholder="Character Race">
-        <input type="text" id="character-class" name="charClass" placeholder="Character Class">
-        <input type="text" id="character-level" name="charLevel" placeholder="Character Level">
-        <br>
+        <label for="character-filler" id="form-name"><strong>Fill the Graveyard</strong></label>
+        <div class="holder-grave">
+        
+    
+        <input type="text" id="character-name" class="form-input" name="charName" placeholder="Character Name">
+        <input type="text" id="character-race" class="form-input" name="charRace" placeholder="Character Race">
+        <input type="text" id="character-class" class="form-input" name="charClass" placeholder="Character Class">
+        <input type="text" id="character-level" class="form-input" name="charLevel" placeholder="Character Level">
+
         <input type="submit" value="Remember the Fallen">
+        </div>
       </form>
       <nav id="graves"></nav>
   </div>

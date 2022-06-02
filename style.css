@@ -1,6 +1,6 @@
 body,
 html {
-    background-color: #3e8170;
+    background-color: #a31f1f;
     height: 100%;
     margin: 0;
 
@@ -9,7 +9,7 @@ body{
     background-image: url('https://staticdelivery.nexusmods.com/mods/2298/images/957/957-1584101320-1219320323.png');
     width: 100%;
     height: 100%;
-    background-position: 50% 200px;
+    background-position: 50% 100px;
     background-repeat: no-repeat; 
 }
 
@@ -62,7 +62,9 @@ body{
     border: none;
     cursor: pointer;
 }
+
 .search-button{
+   padding: 6px;
     font-size: 1.5rem;
     border: none;
     border-top-right-radius: 10px;
@@ -70,18 +72,25 @@ body{
     background-color: #af0d02;
     color:#fff;
     cursor: pointer;
+   
 }
 
 #monster-search{
+    
     font-size: 1.5rem;
-
-   border: none;
+    border: 2px solid #af0d02;
    outline: none;
-   background-color: #aa5954;
+   background-color: #ac8987;
+   transition: background 0.25, box-shadow 0.25s;
+}
+#monster-search:focus {
+    background: rgb(168, 136, 136);
+    box-shadow: 0 0 2px #ad5955;
 }
 
  #monster-search::placeholder{
      color: white;
+     border-radius: 5px;
 } 
 
 
@@ -180,7 +189,7 @@ body{
 
 
   }
-  /* #expanded-description {
+   /* #expanded-description {
     padding: 5px 15px;
   }
   #creature-name {
@@ -188,7 +197,7 @@ body{
   }
   #monster-meta{
     padding: 5px 15px;
-  } */
+  }  */
 
   #close {
     position: relative;
@@ -201,7 +210,7 @@ body{
       font-weight: bold;
   }
 
-  /* #overlay{
+   #overlay{
       position: fixed;
       opacity: 0;
       transition: 200ms ease-in-out;
@@ -211,22 +220,22 @@ body{
       bottom: 0;
       background-color:rgba(0, 0, 0, .5);
     pointer-events: none;
-  } */
+  } 
 
   /* #overlay.active {
       opacity: 1;
       pointer-events: all;
-  } 
+  }  */
 
   #graves {
     background-image: url('https://live.staticflickr.com/79/282630595_65f897a07f_h.jpg');
-    background-size: 1500px;
+    background-size: 100%;
+    background-repeat: no-repeat;
     background-position: bottom;
     height: 300px;
     display: flex;
     justify-content:flex-start;
     flex-direction: row;
-    width: 100%;
     text-align: center;
     min-height: 400px;
     align-items:center;
@@ -240,10 +249,30 @@ body{
     height: 150px;
   }
 #grave-form {
-    background-color:#E69A28;
+    background-color:#af0d02;
     text-align: center;
 }
 
 #character-filler {
     text-size-adjust: 200%;
+}
+.holder-grave {
+    flex-wrap: wrap;
+    display: inline-flex;
+     display: flex;
+    justify-content: center;
+}
+
+.form-input{
+    border-radius: 5px;
+    font-size: 1.5rem;
+    border: 2px solid #ecdddc;
+   outline: none;
+   background-color: #fffdfd;
+ 
+}
+
+#form-name{
+    font-size: 1.5rem;
+    color: white;
 }

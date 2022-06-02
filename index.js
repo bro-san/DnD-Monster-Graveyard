@@ -138,6 +138,21 @@ submitCharForm.addEventListener("submit", (e) => {
 </form>
 <nav id="graves"></nav> */}
 
+function monsterDataUpdater () {
+  monsterData.forEach(element => {
+    fetch('http://localhost:3000/monstersUpdated', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(element)
+    })
+    .then(res => res.text())
+    .then(dat => console.log(dat))
+  })
+}
+
 const openModelButton = document.querySelector('[data-modal-target]')
 const closeModelButton = document.querySelector('[data-modal-close]')
 // const overlay = document.querySelector('#overlay')
@@ -165,19 +180,4 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
     // overlay.classList.remove('active')
-}
-
-function monsterDataUpdater () {
-  monsterData.forEach(element => {
-    fetch('http://localhost:3000/monstersUpdated', {
-      method: 'POST',
-      headers: {
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-      },
-      body: JSON.stringify(element)
-    })
-    .then(res => res.text())
-    .then(dat => console.log(dat))
-  })
 }
