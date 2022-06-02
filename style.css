@@ -225,10 +225,10 @@ body{
   } 
 
 
-  #overlay.active {
+  /* #overlay.active {
       opacity: 1;
       pointer-events: all;
-  }  */
+  }   */
 
   #graves {
     background-image: url('https://live.staticflickr.com/79/282630595_65f897a07f_h.jpg');
