@@ -53,13 +53,23 @@ function displayMonster (element) {
   }
 
 let killCountBtn = document.querySelector('button#kill-button')
-           killCountBtn.addEventListener('click', e => {
-            updateKills(monster.kill_count)
-            //saveKills(monster)
-           })
-  function updateKills (e) {
-  currentKills = parseInt(killCount.textContent, 10)
-  killCount.textContent = `${currentKills + 1}`
+killCountBtn.addEventListener('click', e => {
+  updateKills(monster.kill_count)
+})
+function updateKills (e) {
+    currentKills = parseInt(killCount.textContent, 10)
+    killCount.textContent = `${currentKills + 1}`;
+    fetch(`http://localhost:3000/monsters/${monster.id}`, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({kill_count: `${parseInt(monster.kill_count) + 1}`})
+    })
+    .then(res => res.json())
+    .then(json => console.log(json))
+
 }
 
 submitForm.addEventListener("submit", (e) => {
@@ -78,10 +88,6 @@ randomMonsterBtn.addEventListener('click', e => {
   displayMonster(monsterData[randomNum]);
 
 })
-
-//adding persistent kill count function to kill button
-// const killCountBtn = document.querySelector('button#kill-button')
-// killCountBtn.addEventListener('click', e => {
 
 const submitCharForm = document.getElementById('grave-form')
 const graveNav = document.getElementById('graves')
