@@ -1,6 +1,6 @@
 body,
 html {
-    background-color: #686868;
+    background-color: #3e8170;
     height: 100%;
     margin: 0;
 
@@ -63,7 +63,7 @@ html {
     border-radius: 5px;
     border-color: #ffffff;
     background: #bfc485;
-    color: #383434;
+    color: #e3e660;
     border: none;
     /* display: inline-block; */
     font-family: 'Open Sans';
@@ -99,7 +99,7 @@ html {
 }
 
 .modal-container{
-    position: fixed;
+    position: absolute;
     top:50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
@@ -108,8 +108,11 @@ html {
     border-radius: 10px;
     background-color: #FDF1DC;
     z-index: 10;
-    width: 500px;
+    width: 800px;
     max-width: 80%;
+    max-height: 80%;
+    overflow-x: hidden;
+
 }
 .modal-container.active {
     transform: translate(-50%, -50%) scale(1);
@@ -117,6 +120,8 @@ html {
 
 #content {
     padding: 10px 15px;
+
+
   }
   /* #expanded-description {
     padding: 5px 15px;
@@ -130,7 +135,7 @@ html {
 
   #close {
     position: relative;
-    left: 450px;
+    left: 720px;
       cursor: pointer;
       border: none;
       outline: none;
@@ -139,7 +144,7 @@ html {
       font-weight: bold;
   }
 
-  #overlay{
+  /* #overlay{
       position: fixed;
       opacity: 0;
       transition: 200ms ease-in-out;
@@ -149,9 +154,9 @@ html {
       bottom: 0;
       background-color:rgba(0, 0, 0, .5);
     pointer-events: none;
-  }
+  } */
 
-  #overlay.active {
+  /* #overlay.active {
       opacity: 1;
       pointer-events: all;
-  }
+  } */
