@@ -43,8 +43,8 @@
           <p id="expanded-description"></p>
         </div>
       </div>
-      <div id="overlay"></div>
 
+      <div  id="overlay"></div>
 
     </div>
 
@@ -53,6 +53,18 @@
         src="https://cdn.pixabay.com/photo/2020/07/30/12/06/question-mark-5450223_1280.jpg" />
       <h4>Total Kills: <span id="kill-count">0</span></h4>
       <button id="kill-button" class="btn">Death</button>
+    </div>
+    <div id="graveyard">
+      <form id="grave-form">
+        <label for="character-filler"></label>
+        <input type="text" id="character-name" name="charName" placeholder="Character Name">
+        <input type="text" id="character-race" name="charRace" placeholder="Character Race">
+        <input type="text" id="character-class" name="charClass" placeholder="Character Class">
+        <input type="text" id="character-level" name="charLevel" placeholder="Character Level">
+        <input type="submit" value="Remember the Fallen">
+      </form>
+      <nav id="graves"></nav>
+
     </div>
 
 

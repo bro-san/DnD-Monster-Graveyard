@@ -3,15 +3,13 @@ const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
-//console.log(killCount.textContent)
 
-
+var monster
 var monsterData;
 
 fetch('http://localhost:3000/monsters/')
   .then(res => res.json())
   .then(data => monsterData = data)
-
 
 // let i;
 // for (i = 0; i < monsterButton.length; i++) {
@@ -27,7 +25,8 @@ fetch('http://localhost:3000/monsters/')
 // }
 
 function displayMonster (element) {
-           let monsterName = document.getElementById('monster-name')
+          monster = element 
+          let monsterName = document.getElementById('monster-name')
            monsterName.innerText = element.name
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
@@ -37,10 +36,6 @@ function displayMonster (element) {
         //    let monsterMeta = document.querySelector('#monster-meta')
         //    monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
-           let creatureName = document.querySelector("#creature-name")
-           creatureName.textContent = element.name
-           let monsterMeta = document.querySelector('#monster-meta')
-           monsterMeta.textContent = element.meta
            monsterDetails.innerHTML = (
             `<strong>Armor Class:</strong> ${element['Armor Class']}
            <br><strong>Hit Points:</strong> ${element['Hit Points']}
@@ -55,16 +50,26 @@ function displayMonster (element) {
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
            killCount.innerHTML = element.kill_count
-           let killCountBtn = document.querySelector('button#kill-button')
-           killCountBtn.addEventListener('click', e => {
-            updateKills(element.kill_count)
-            //saveKills(monster)
-           })
   }
 
+let killCountBtn = document.querySelector('button#kill-button')
+killCountBtn.addEventListener('click', e => {
+  updateKills(monster.kill_count)
+})
 function updateKills (e) {
-  currentKills = parseInt(killCount.textContent, 10)
-  killCount.textContent = `${currentKills + 1}`
+    currentKills = parseInt(killCount.textContent, 10)
+    killCount.textContent = `${currentKills + 1}`;
+    fetch(`http://localhost:3000/monsters/${monster.id}`, {
+      method: 'PATCH',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify({kill_count: `${parseInt(monster.kill_count) + 1}`})
+    })
+    .then(res => res.json())
+    .then(json => console.log(json))
+
 }
 
 submitForm.addEventListener("submit", (e) => {
@@ -84,11 +89,50 @@ randomMonsterBtn.addEventListener('click', e => {
 
 })
 
-//adding persistent kill count function to kill button
-// const killCountBtn = document.querySelector('button#kill-button')
-// killCountBtn.addEventListener('click', e => {
-    //})
 
+const submitCharForm = document.getElementById('grave-form')
+const graveNav = document.getElementById('graves')
+
+submitCharForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let newGrave = document.createElement('div')
+    newGrave.classList.add("grave")
+    //newGrave.addClass('grave')
+    let deceasedName = document.createElement('h4')
+    deceasedName.innerText = e.target['character-name'].value
+    let deceasedInfo = document.createElement('p')
+    deceasedInfo.innerText = `Level ${e.target['character-level'].value}` + `\n` + `${e.target['character-race'].value}\n${e.target['character-class'].value}`
+    console.log(deceasedInfo.innerHTML)
+    deceasedName.append(deceasedInfo)
+    newGrave.append(deceasedName)
+    graveNav.appendChild(newGrave)
+
+
+    // let deceasedClass = document.createElement('h5')
+    // deceasedClass.innerText = e.target['character-class'].value
+    // let deceasedRace = document.createElement('h5')
+    // deceasedRace.innerText = e.target['character-race'].value
+    // let deceasedLevel = document.createElement('h5')
+    // deceasedClass.innerText = e.target['character-level'].value
+    // graveNav.appendChild(deceasedName, deceasedRace, deceasedClass, deceasedLevel)
+
+    console.log(deceasedName.innerText);
+    console.log('click')
+    submitCharForm.reset();
+})
+
+//const digGrave = 
+
+{/* <div id="graveyard">
+<form id="grave-form">
+  <label for="character-filler"></label>
+  <input type="text" id="character-name" name="charName" placeholder="Character Name">
+  <input type="text" id="character-race" name="charRace" placeholder="Character Race">
+  <input type="text" id="character-class" name="charClass" placeholder="Character Class">
+  <input type="text" id="character-level" name="charLevel" placeholder="Character Level">
+  <input type="submit" value="Remember the Fallen">
+</form>
+<nav id="graves"></nav> */}
 
 const openModelButton = document.querySelector('[data-modal-target]')
 const closeModelButton = document.querySelector('[data-modal-close]')
@@ -117,4 +161,19 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
     // overlay.classList.remove('active')
+}
+
+function monsterDataUpdater () {
+  monsterData.forEach(element => {
+    fetch('http://localhost:3000/monstersUpdated', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(element)
+    })
+    .then(res => res.text())
+    .then(dat => console.log(dat))
+  })
 }
