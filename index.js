@@ -2,6 +2,7 @@ const submitForm = document.getElementById('monster-form')
 const monsterDiv = document.getElementById('monster-info')
 const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
+const killCount = document.getElementById('kill-count')
 
 var monsterData;
 
@@ -63,5 +64,11 @@ randomMonsterBtn.addEventListener('click', e => {
 //adding persistent kill count function to kill button
 const killCountBtn = document.querySelector('button#kill-button')
 killCountBtn.addEventListener('click', e => {
-
+    // element.kill_count+=1
+    let killInteger = parseInt(killCount.innerHTML, 10)
+    let newNumber = killInteger + 1
+    killCount.innerHTML = newNumber;
+    saveKills()
 })
+
+
