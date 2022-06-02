@@ -4,7 +4,7 @@ const monsterDescription = document.getElementById('description')
 const monsterButton = document.getElementsByClassName("collapsible");
 const killCount = document.getElementById('kill-count')
 //console.log(killCount.textContent)
-
+var monster
 
 var monsterData;
 
@@ -27,7 +27,8 @@ fetch('http://localhost:3000/monsters/')
 // }
 
 function displayMonster (element) {
-           let monsterName = document.getElementById('monster-name')
+          monster = element 
+          let monsterName = document.getElementById('monster-name')
            monsterName.innerText = element.name
            monsterDescription.innerHTML = (`${element.meta}`) 
            let monsterImg = document.getElementById('monster-image')
@@ -37,10 +38,10 @@ function displayMonster (element) {
            let monsterMeta = document.querySelector('#monster-meta')
            monsterMeta.textContent = element.meta
            let monsterDetails = document.getElementById('expanded-description')
-           let creatureName = document.querySelector("#creature-name")
-           creatureName.textContent = element.name
-           let monsterMeta = document.querySelector('#monster-meta')
-           monsterMeta.textContent = element.meta
+          //  let creatureName = document.querySelector("#creature-name")
+          //  creatureName.textContent = element.name
+          //  let monsterMeta = document.querySelector('#monster-meta')
+          //  monsterMeta.textContent = element.meta
            monsterDetails.innerHTML = (
             `<strong>Armor Class:</strong> ${element['Armor Class']}
            <br><strong>Hit Points:</strong> ${element['Hit Points']}
@@ -55,14 +56,14 @@ function displayMonster (element) {
            <br><strong>Legendary Actions:</strong> ${element['Legendary Actions']}
            `)
            killCount.innerHTML = element.kill_count
-           let killCountBtn = document.querySelector('button#kill-button')
-           killCountBtn.addEventListener('click', e => {
-            updateKills(element.kill_count)
-            //saveKills(monster)
-           })
   }
 
-function updateKills (e) {
+let killCountBtn = document.querySelector('button#kill-button')
+           killCountBtn.addEventListener('click', e => {
+            updateKills(monster.kill_count)
+            //saveKills(monster)
+           })
+  function updateKills (e) {
   currentKills = parseInt(killCount.textContent, 10)
   killCount.textContent = `${currentKills + 1}`
 }
@@ -116,4 +117,19 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
     modal.classList.remove('active')
+}
+
+function monsterDataUpdater () {
+  monsterData.forEach(element => {
+    fetch('http://localhost:3000/monstersUpdated', {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      },
+      body: JSON.stringify(element)
+    })
+    .then(res => res.text())
+    .then(dat => console.log(dat))
+  })
 }
