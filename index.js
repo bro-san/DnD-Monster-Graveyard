@@ -9,10 +9,12 @@ const graveNav = document.getElementById('graves')
 var monster
 var monsterData;
 
-fetch('http://localhost:3000/monsters/')
+function getData () {fetch('http://localhost:3000/monsters/')
   .then(res => res.json())
   .then(data => monsterData = data)
+}
 
+getData();
 // let i;
 // for (i = 0; i < monsterButton.length; i++) {
 //     monsterButton[i].addEventListener("click", function() {
@@ -74,10 +76,8 @@ function updateKills (e) {
     })
     .then(res => res.json())
     .then(json => displayMonster(json))
-    .then(json => console.log(json))
-    .then(fetch('http://localhost:3000/monsters') 
-      .then(res => res.json())
-      .then(data => monsterData = data))
+    setTimeout(() => {getData(); }, 51)
+    
 
 
 
