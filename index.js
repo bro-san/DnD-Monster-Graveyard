@@ -54,6 +54,7 @@ function displayMonster (element) {
            graveNav.innerHTML = ""
 
            killCount.textContent = element.kill_count
+           console.log(element.kill_count)
   }
 
 let killCountBtn = document.querySelector('button#kill-button')
@@ -61,18 +62,32 @@ killCountBtn.addEventListener('click', e => {
   updateKills(monster.kill_count)
 })
 function updateKills (e) {
-    currentKills = parseInt(killCount.textContent, 10)
-    killCount.textContent = `${currentKills + 1}`;
+    //currentKills = parseInt(killCount.textContent, 10)
+    //killCount.textContent = `${currentKills + 1}`;
     fetch(`http://localhost:3000/monsters/${monster.id}`, {
       method: 'PATCH',
       headers: {
         "Content-Type": "application/json",
         "Accept": "application/json"
       },
-      body: JSON.stringify({kill_count: `${parseInt(monster.kill_count) + 1}`})
+      body: JSON.stringify({kill_count: `${parseInt(monster.kill_count, 10) + 1}`})
     })
     .then(res => res.json())
+    .then(json => displayMonster(json))
     .then(json => console.log(json))
+    .then(fetch('http://localhost:3000/monsters') 
+      .then(res => res.json())
+      .then(data => monsterData = data))
+
+
+
+    //.then(json => console.log(json.kill_count))
+    //setTimeout(() => {killCount.textContent = monster.kill_count; }, 5000)
+    //killCount.textContent = monster.kill_count;
+    //console.log(killCount)
+    //setTimeout(() => {console.log(killCount); }, 5001)
+    //setTimeout(() => {  displayMonster(monster); }, 5000);
+
 
 }
 
