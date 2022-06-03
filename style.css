@@ -9,7 +9,7 @@ body{
     background-image: url('https://staticdelivery.nexusmods.com/mods/2298/images/957/957-1584101320-1219320323.png');
     width: 100%;
     height: 100%;
-    background-position: 50% 100px;
+    background-position: 50% 120px;
     background-repeat: no-repeat; 
 }
 
@@ -47,7 +47,7 @@ body{
     display: inline-flex;
      display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 25px;
 } 
 
 #monster-randomizer{
@@ -102,13 +102,13 @@ body{
     display: flex;
         justify-content: space-around;
         align-items: flex-end;
-        margin-top: 50px;
-        margin-bottom: 25px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
 #monster-info {
     align-self: center;
-    background-color: #927f7e;
+    background-color: #9b807f;
     border-radius: 5px;
  
 
